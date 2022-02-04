@@ -1,28 +1,95 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-
-/* main.style 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-/*deklaracija spremenljivk*/
+/*vars*/
+/*V upanju da mi tokrat različni browzerji e sf***** spet stylov dodajam knjižnico normalize*/
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
 :root {
-  --variableName: #6495ed;
+  --mainBgColor: #26281f;
+  --mainTxtColor: #fcecca;
+  --hoverColor: #df6437;
+  --transitioni: 100ms;
 }
-
+* {
+  text-decoration: none;
+  color: var(--mainTxtColor);
+}
 
 html {
-  color: #222;
+  font-family: 'Spartan', sans-serif;
   font-size: 1em;
   line-height: 1.4;
+  background-color: var(--mainBgColor);
+}
+.logo {
 }
 
+img {
+  width: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover {
+  cursor: pointer;
+  -webkit-transition: 50ms;
+  -moz-transition: 50ms;
+  -o-transition: 50ms;
+  transition: 50ms;
+}
+
+.hover:hover, a:hover {
+  color: var(--hoverColor)!important;
+  -webkit-transition: var(--transitioni);
+  -moz-transition: var(--transitioni);
+  -o-transition: var(--transitioni);
+  transition: var(--transitioni);
+}
+
+.glava, .noga {
+  letter-spacing: -0.15em;
+  font-weight: 800;
+  font-size: 25pt;
+  line-height: 25pt;
+}
+.glava {
+  margin: 6%;
+}
+.noga {
+  margin-top: 12px;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  display: inline;
+}
+
+p {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  margin-left:25px;
+  margin-right:25px;
+}
+.container {
+  margin-top: 200px;
+}
+.paragraph {
+  margin: 100px;
+}
+
+/*
+* Dynamic classes for content altering
+*/
+
+.hidden {
+  display: none!important;
+}
+
+/* ==========================================================================
+  Useful classes
+   ========================================================================== */
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -68,186 +135,49 @@ video {
   vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
 /* ==========================================================================
-   Author's styles!
+  Media Queries for Responsive Design.
    ========================================================================== */
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
 
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
- * Extends the .visually-hidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visually-hidden.focusable:active,
-.visually-hidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * The use of `table` rather than `block` is only necessary if using
- * `::before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: table;
-}
-
-.clearfix::after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 40em) {
   /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  tr,
   img {
-    page-break-inside: avoid;
+    width: 80%;
+  }
+  .glava {
+    margin: 4%;
   }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
+}
+@media only screen and (min-width: 50em) {
+  /* Style adjustments for viewports that meet the condition */
+  img {
+    width: 60%;
   }
+  .paragraph {
+    margin: 250px;
+    width: 40%;
+  }
+}
 
-  h2,
-  h3 {
-    page-break-after: avoid;
+@media only screen and (min-width: 65em) {
+  /* Style adjustments for viewports that meet the condition */
+  h2 {
+    font-size: 40pt;
+  }
+  img {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 85em) {
+  /* Style adjustments for viewports that meet the condition */
+  h2 {
+    font-size: 40pt;
+  }
+  img {
+    width: 40%;
   }
 }
 
