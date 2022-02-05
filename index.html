@@ -12,20 +12,24 @@
     <meta property="og:url" content="https://kinobled.com/">
     <meta property="og:description" content="Kino Bled film festival, the third edition, will take place from 18. till 25. of June. Free entry.">
 
-    <!--<link rel="icon" href="/favicon.ico" sizes="any">
-   <link rel="icon" href="/icon.svg" type="image/svg+xml">
-   <link rel="apple-touch-icon" href="icon.png">-->
+    <!--<link rel="icon" href="/favicon.ico" sizes="any">    TODO
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">-->
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <meta name="theme-color" content="#26281f">
+    <!-- <link rel="manifest" href="site.webmanifest"> TODO -->
     <!-- označiš barvo da browserji "potencialno" prilagodijo svojo barvo, neat AF-->
+    <meta name="theme-color" content="#26281f">
+
 </head>
 
 <body>
-    <h2 class="glava hidden spremeni hover">back</h2>
-    <div class="hidden container spremeni">
+    <!-- back gumb (skrit dokler ni kliknen info gumb)-->
+    <h2 class="glava visually-hidden spremeni hover">back</h2>
+
+    <!-- content (skrito dokler ni kliknen info gumb)-->
+    <article class="visually-hidden container spremeni">
         <p class="paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
@@ -36,15 +40,15 @@
             Prešernova cesta 52<br>
             4260 Bled<br>
         </p>
-    </div>
+    </article>
+
+    <!-- logo-->
     <div class="logo shown spremeni">
         <img alt="Kino Bled" src="img/zacasnilogo.png">
     </div>
 
+    <!-- info in contact gumbi-->
     <h2 class="noga shown spremeni"><span class="hover info">info</span> / <a target="_blank" href="mailto:info@kinobled.com">contact</a></h2>
-
-
-
 
     <!-- scripts-->
     <script src="js/script.js"></script>

@@ -1,7 +1,9 @@
-/*vars*/
 /*V upanju da mi tokrat različni browzerji e sf***** spet stylov dodajam knjižnico normalize*/
+
+/*Spartan pisava kot alternativa futuri*/
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
 
+/*vars*/
 :root {
     --mainBgColor: #26281f;
     --mainTxtColor: #fcecca;
@@ -21,8 +23,7 @@ html {
     background-color: var(--mainBgColor);
 }
 
-.logo {}
-
+/*logo*/
 img {
     width: 95%;
     position: absolute;
@@ -31,6 +32,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
+/*hover za linke in gumbe*/
 .hover {
     cursor: pointer;
     -webkit-transition: var(--hoverColor);
@@ -48,6 +50,7 @@ a:hover {
     transition: var(--transitioni);
 }
 
+/*gumbi linki pisava/stili*/
 .glava,
 .noga {
     letter-spacing: -0.15em;
@@ -72,6 +75,7 @@ a:hover {
     display: inline;
 }
 
+/*vsebina stili*/
 p {
     letter-spacing: 0.05em;
     font-weight: 600;
@@ -90,14 +94,36 @@ p {
 /*
 * Dynamic classes for content altering
 */
-
+/*
 .hidden {
     display: none !important;
 }
+*/
 
 /* ==========================================================================
   Useful classes
    ========================================================================== */
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
