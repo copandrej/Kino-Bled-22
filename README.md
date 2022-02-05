@@ -1,2 +1,3 @@
-# ZAČASNA SPLETNA ZA KINO BLED 22
+# Začasna spletna stran za Kino Bled 2022
 
+Spletna stran je narejena po designu zavoda Aspekt

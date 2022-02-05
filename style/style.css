@@ -6,7 +6,7 @@
     --mainBgColor: #26281f;
     --mainTxtColor: #fcecca;
     --hoverColor: #df6437;
-    --transitioni: 100ms;
+    --transitioni: 80ms;
 }
 
 * {
@@ -33,10 +33,10 @@ img {
 
 .hover {
     cursor: pointer;
-    -webkit-transition: 50ms;
-    -moz-transition: 50ms;
-    -o-transition: 50ms;
-    transition: 50ms;
+    -webkit-transition: var(--hoverColor);
+    -moz-transition: var(--hoverColor);
+    -o-transition: var(--hoverColor);
+    transition: var(--hoverColor);
 }
 
 .hover:hover,
