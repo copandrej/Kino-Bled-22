@@ -88,7 +88,7 @@ p {
 }
 
 .paragraph {
-    margin: 100px;
+    margin: 50px;
 }
 
 /*
@@ -192,6 +192,7 @@ video {
     .paragraph {
         width: 40%;
         font-size: 15pt;
+        margin: 100px;
     }
 }
 
