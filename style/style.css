@@ -23,7 +23,7 @@ html {
     background-color: var(--mainBgColor);
 }
 
-/*logo*/
+/*logo central */
 .logo {
     width: 95%;
     position: absolute;
@@ -31,6 +31,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*h1 fix*/
 h1 {
   margin: 0;
 }
@@ -53,7 +54,7 @@ a:hover {
     transition: var(--transitioni);
 }
 
-/*gumbi linki pisava/stili*/
+/*informacije pod logotom podnaslov = film festival, cas = datum festivala*/
 .podnaslov {
   text-align: right;
   margin: 0;
@@ -64,6 +65,7 @@ a:hover {
   line-height: 25pt;
   margin-top: 5px;
 }
+
 .cas {
   text-align: right;
   margin: 0;
@@ -72,9 +74,13 @@ a:hover {
   font-weight: 500;
   font-size: 12pt;
 }
+
+/*razmak med besedo festival in film*/
 .razmak {
   padding-left: 10px;
 }
+
+/*gumbi linki pisava/stili*/
 .glava,
 .noga {
     letter-spacing: -0.15em;
@@ -99,6 +105,11 @@ a:hover {
     display: inline;
 }
 
+/*padding pri nogi med gumbom in '/' znakom */
+.pad {
+  padding: 8px;
+}
+
 /*vsebina stili*/
 p {
     letter-spacing: 0.05em;
@@ -107,6 +118,7 @@ p {
     margin-right: 25px;
 }
 
+/*container za vsebino*/
 .container {
     margin-top: 200px;
 }
@@ -115,18 +127,12 @@ p {
     margin: 50px;
 }
 
-.pad {
-  padding: 8px;
-}
+
 
 /*
-* Dynamic classes for content altering
+* Za spreminjanje vidnosti uporabljam visually-hidden, da besedilo ostane vidno website crawlarjem
 */
-/*
-.hidden {
-    display: none !important;
-}
-*/
+
 
 /* ==========================================================================
   Useful classes
@@ -158,7 +164,7 @@ p {
  *
  * Customize the background color to match your design.
  */
-
+/*
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -168,20 +174,7 @@ p {
     background: #b3d4fc;
     text-shadow: none;
 }
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
+*/
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
