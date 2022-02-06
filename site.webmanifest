@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Kino Bled",
+    "short_name": "Kino Bled",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
@@ -8,12 +8,12 @@
             "type": "image/png"
         },
         {
-            "src": "android-chrome-384x384.png",
-            "sizes": "384x384",
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "theme_color": "#26281f",
-    "background_color": "#26281f",
+    "theme_color": "#26281e",
+    "background_color": "#26281e",
     "display": "standalone"
 }
