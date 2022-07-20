@@ -1,7 +1,12 @@
-/*V upanju da mi tokrat različni browzerji e sf***** spet stylov dodajam knjižnico normalize*/
-
-/*Spartan pisava kot alternativa futuri*/
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
 
 /*vars*/
 :root {
@@ -16,249 +21,160 @@
     color: var(--mainTxtColor);
 }
 
-html {
-    font-family: 'Spartan', sans-serif;
-    font-size: 1em;
-    line-height: 1.4;
+img {
+    width: 500px;
+    /*600px*/
+}
+
+/*da ne skače ko se pojavi scroll, je scroll rajš cel cajt*/
+
+body {
+    overflow-y: scroll;
     background-color: var(--mainBgColor);
 }
 
-/*logo central */
-.logo {
-    width: 95%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-/*h1 fix*/
+/*razni stili naslovov*/
+
 h1 {
-  margin: 0;
+    font-size: 100pt;
+    letter-spacing: -0.15em;
+    font-weight: 800;
 }
 
-/*hover za linke in gumbe*/
-.hover {
-    cursor: pointer;
-    -webkit-transition: var(--hoverColor);
-    -moz-transition: var(--hoverColor);
-    -o-transition: var(--hoverColor);
-    transition: var(--hoverColor);
+h2,
+h3 {
+    letter-spacing: -0.075em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 25pt;
+    margin-top: 12px;
+    line-height: 25pt;
+}
+
+h3 {
+    margin-top: 2px;
+    font-size: 15pt;
+    line-height: 15pt;
+}
+
+.minus {
+    letter-spacing: -0.17em;
+    font-weight: 900;
+    padding-right: 8px;
 }
 
 .hover:hover,
 a:hover {
     color: var(--hoverColor) !important;
-    -webkit-transition: var(--transitioni);
-    -moz-transition: var(--transitioni);
-    -o-transition: var(--transitioni);
-    transition: var(--transitioni);
+    -webkit-transition: 0ms;
+    -moz-transition: 0ms;
+    -o-transition: 0ms;
+    transition: 0ms;
 }
 
-/*informacije pod logotom podnaslov = film festival, cas = datum festivala*/
-.podnaslov {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-  letter-spacing: -0.1em;
-  font-weight: 900;
-  font-size: 15pt;
-  line-height: 25pt;
-  margin-top: 5px;
+.hover {
+    cursor: pointer;
+    -webkit-transition: 50ms;
+    -moz-transition: 50ms;
+    -o-transition: 50ms;
+    transition: 50ms;
 }
 
-.cas {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-  letter-spacing: 0;
-  font-weight: 500;
-  font-size: 12pt;
+.r {
+    overflow: hidden;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+    height: 41px;
 }
 
-/*razmak med besedo festival in film*/
-.razmak {
-  padding-left: 10px;
+.skri {
+    padding-bottom: 10px;
 }
 
-/*gumbi linki pisava/stili*/
-.glava,
-.noga {
-    letter-spacing: -0.15em;
-    font-weight: 800;
-    font-size: 25pt;
-    line-height: 25pt;
+.r h3 {
+    padding-top: 15px;
 }
 
-.glava {
-    margin: 6%;
-}
-
-.noga {
-    margin-top: 12px;
-    text-align: center;
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline;
-}
-
-/*padding pri nogi med gumbom in '/' znakom */
-.pad {
-  padding: 8px;
-}
-
-/*vsebina stili*/
-p {
-    letter-spacing: 0.05em;
-    font-weight: 600;
+.r p {
+    letter-spacing: -0.1em;
+    font-weight: 500;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-/*container za vsebino*/
-.container {
-    margin-top: 200px;
+sup {
+    font-size: 9.1pt;
 }
 
-.paragraph {
-    margin: 50px;
+.jezik {
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
-
-
-/*
-* Za spreminjanje vidnosti uporabljam visually-hidden, da besedilo ostane vidno website crawlarjem
-*/
-
-
-/* ==========================================================================
-  Useful classes
-   ========================================================================== */
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Customize the background color to match your design.
- */
-/*
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+.naslov {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-*/
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
+.podnaslov {
+    margin-bottom: 55px;
 }
 
-/* ==========================================================================
-  Media Queries for Responsive Design.
-   ========================================================================== */
-
-@media only screen and (min-width: 30em) {
-  .podnaslov {
-    font-size: 19pt;
-  }
-  .cas {
-    font-size: 15pt;
-  }
+.noga {
+    margin-top: 55px;
+    margin-bottom: 120px;
 }
 
-@media only screen and (min-width: 40em) {
-    .logo {
-        width: 80%;
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 80pt;
     }
 
-    .glava {
-        margin: 4%;
-    }
-    .podnaslov {
-    font-size: 25pt;
-    }
-    .cas {
-      font-size: 18pt;
+    img {
+        width: 500px;
     }
 }
 
-@media only screen and (min-width: 50em) {
-  .logo {
-        width: 60%;
+@media only screen and (max-width: 510px) {
+    h1 {
+        font-size: 60pt;
     }
 
-    .paragraph {
-        width: 40%;
-        font-size: 15pt;
-        margin: 100px;
-    }
-
-}
-
-@media only screen and (min-width: 65em) {
-    h2 {
-        font-size: 40pt;
-    }
-
-  .logo {
-        width: 60%;
-    }
-
-    .paragraph {
-        width: 30%;
-        margin-left: 240px;
-    }
-    .podnaslov {
-      font-size: 28pt;
-      margin-top: 10px;
-    }
-    .razmak {
-      padding-left: 15px;
-    }
-    .cas {
-    font-size: 22pt;
+    img {
+        width: 450px;
     }
 }
 
-@media only screen and (min-width: 85em) {
-  .logo {
-        width: 40%;
+@media only screen and (max-width: 455px) {
+    h1 {
+        font-size: 60pt;
+    }
+
+    img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    h1 {
+        font-size: 60pt;
+    }
+
+    img {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    h1 {
+        font-size: 60pt;
+    }
+
+    img {
+        width: 300px;
     }
 }

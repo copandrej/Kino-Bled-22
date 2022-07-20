@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="sl">
 
 <head>
@@ -35,47 +35,108 @@
     <meta name="theme-color" content="#26281f">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="style/normalize.css">
+    <!-- Styles
+    <link rel="stylesheet" href="style/normalize.css">-->
     <link rel="stylesheet" href="style/style.css">
 
 </head>
 
 <body>
-    <!-- back gumb (skrit dokler ni kliknen info gumb)-->
-    <h2 class="glava visually-hidden spremeni hover">back</h2>
-
-    <!-- content (skrito dokler ni kliknen info gumb)-->
-    <article class="visually-hidden container spremeni">
-        <p class="paragraph">
-            Kino Bled stremi k ustvarjanju blagostanja zapisanega v porušenih temeljih zanemarjene zgodovine in kulturne identitete.
-            Ponuja odprto platformo sodelovanja usmerjenega k ustvarjanju kvalitetnih pobud, dogodkov, stvaritev, iniciativ in festivalov.
-            <br><br>
-            <a target="_blank" href="mailto:info@kinobled.com">info@kinobled.com</a><br>
-            <a target="_blank" href="tel:+38669621840">+386 69 621 840</a><br><br>
-            Zavod Aspekt<br>
-            Prešernova cesta 52<br>
-            4260 Bled<br>
-        </p>
-    </article>
-
-    <!-- logo-->
-    <div class="logo shown spremeni">
-      <h1>
-        <img alt="Aspekt predstavlja Kino Bled 2022 film festival." src="img/Kino-Bled-Logo.svg">
-      </h1>
-      <h2 class="podnaslov">
-        FILM <span class="razmak">FESTIVAL</span>
-      </h2>
-      <h3 class="cas">
-        8 - 14 AUGUST
-      </h3>
+    <div class="jezik">
+        <h3><span class="hover slo">SLO</span> / <span class="hover eng">ENG</span></h3>
     </div>
 
-    <!-- info in contact gumbi-->
-    <h2 class="noga shown spremeni"><span class="hover pad info">info</span> / <a class="pad" target="_blank" href="mailto:info@kinobled.com">contact</a></h2>
+    <h3>
+        <pre class="prevedi">ASPEKT INSTITUTE    PRESENTS</pre>
+    </h3>
 
-    <!-- scripts-->
+    <div class="naslov">
+        <h1 style="display:none;">KINO BLED</h1>
+        <img alt="Kino Bled" src="img/Kino-Bled-Logo.svg">
+    </div>
+
+    <div class="podnaslov">
+        <h3>
+            <pre><span>21 <span class="minus" style="padding:4px; color: inherit;">---</span> 25 SEPTEMBER    2021</span></pre>
+        </h3>
+        <a target="_blank" href="https://maps.app.goo.gl/JXhtKhYqHuwskPck8">
+            <h3>
+                <pre><span class="hover">FESTIVALNA DVORANA    BLED</span></pre>
+            </h3>
+        </a>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">TUESDAY</span></h2>
+        <div class="skri">
+            <h3>19:00</h3>
+            <p>festival opening<br></p>
+            <h3>20:00</h3>
+            <p><a target="_blank" href="https://www.imdb.com/title/tt8151874/">Honey Boy (94')</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">WEDNESDAY</span></h2>
+        <div class="skri">
+            <h3>07:30</h3>
+            <p><a target="_blank" href="https://www.mojaobcina.si/prenosi/novice/bled/212079_etmvabilokolesarskizajtrk.pdf">european mobility week: cyclist breakfast</a><br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
+            <h3>18:00</h3>
+            <p><a target="_blank" href="https://www.instagram.com/martinkrivec/">photo exhibition opening: Martin Krivec</a><br></p>
+            <h3>19:00</h3>
+            <p><a target="_blank" href="https://www.imdb.com/title/tt0056591/">One Fine Day (83’)</a><br></p>
+            <h3>21:00</h3>
+            <p>Firefly Club (7’)<br><a target="_blank" href="https://www.imdb.com/title/tt3521126/">The Disaster Artist (104’)</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan" id="debug" style="display: inline;">THURSDAY</span></h2>
+        <div class="skri">
+            <h3>17:30</h3>
+            <p>travelogue: Greece<br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
+            <h3>19:00</h3>
+            <p>Bike (3’)<br><a target="_blank" href="https://www.imdb.com/title/tt3422078/">April and the Extraordinary World (105’)</a><br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
+            <h3>21:00</h3>
+            <p><a target="_blank" href="https://www.emeraldparadise.at/?lang=sl&amp;fbclid=IwAR3aAm7nKjEhT7q7gcMcDCJBiWPdC6Q1fq8ITxDApzQS2HSK_C3_KE4KMuo">Emerald Paradise (59’)</a><br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">FRIDAY</span></h2>
+        <div class="skri">
+            <h3>10:00</h3>
+            <p><a target="_blank" href="https://www.bled.si/en/events/2021090112071356/guided-tour-of-bled">guided tour of Bled</a><br><a href="https://goo.gl/maps/sep7vTan7DtZj3bx5" target="_blank">@Tourist information centre</a><br></p>
+            <h3>17:00</h3>-->
+            <p><a target="_blank" href="https://www.imdb.com/title/tt8359848/">Climax (96’)</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)">
+        <h2><span class="minus">---</span><span class="hover dan">SATURDAY</span></h2>
+        <div class="skri">
+            <h3>12:30</h3>
+            <p>debate: Me, you and us in a relationship<br><a href="https://goo.gl/maps/VeBPAY4QCmNjsc5q6" target="_blank">@Tavci Vegan Cafe</a><br></p>
+            <h3>15:00</h3>
+            <p><a target="_blank" href="https://www.imdb.com/title/tt6193408/?ref_=nv_sr_srsg_3">Shaun the Sheep Movie: Farmageddon (87’)</a><br></p>
+            <h3>17:00</h3>
+            <p>round table: Aspekts of Bled<br></p>
+            <h3>19:00</h3>
+            <p><a target="_blank" href="https://www.imdb.com/title/tt11394298/?ref_=nv_sr_srsg_0">The Mole Agent (84’)</a><br></p>
+            <h3>21:00</h3>
+            <p>Easter (7’)<br><a target="_blank" href="https://www.imdb.com/title/tt5805752/?ref_=fn_al_tt_1">Brigsby Bear (97’)</a><br></p>
+        </div>
+    </div>
+
+    <div class="noga">
+        <h3 class="prevedi" style="margin-bottom: 20px;">FREE ENTRY</h3>
+        <h3><a target="_blank" href="https://www.facebook.com/events/825958111390650">FACEBOOK</a> / <a target="_blank" href="https://www.instagram.com/kinobled/">INSTAGRAM</a></h3>
+        <a target="_blank" href="mailto:info@kinobled.com">
+            <h3><span class="hover prevedi">EMAIL US</span></h3>
+        </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
