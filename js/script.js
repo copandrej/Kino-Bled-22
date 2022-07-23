@@ -85,9 +85,11 @@ window.addEventListener("load", () => {
             debug.style.display = "none";
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviSlo[i];
-            debug.style.display = "inline";
-            prevedi[0].innerHTML = "KUPI VSTOPNICE";
-            prevedi[1].innerHTML = "PI&#352ITE NAM";
+            debug.style.display = "inline"; 
+            prevedi[0].innerHTML = " 14 AVGUST    2022";
+            prevedi[1].innerHTML = "IZBERITE KRAJ:";
+            prevedi[2].innerHTML = "KUPI VSTOPNICE";
+            prevedi[3].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik);
 
         } else {
@@ -96,8 +98,10 @@ window.addEventListener("load", () => {
             for (let i = 0; i < spremeni.length; i++)
                 spremeni[i].innerHTML = DneviEng[i];
             debug.style.display = "inline";
-            prevedi[0].innerHTML = "BUY TICKETS";
-            prevedi[1].innerHTML = "EMAIL US";
+            prevedi[0].innerHTML = " 14 AUGUST    2022";
+            prevedi[1].innerHTML = "SELECT THE VENUE:";
+            prevedi[2].innerHTML = "BUY TICKETS";
+            prevedi[3].innerHTML = "EMAIL US";
             vsebina(trenutniJezik);
         }
     }

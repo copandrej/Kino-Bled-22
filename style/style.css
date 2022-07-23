@@ -33,7 +33,7 @@ body {
     background-color: var(--mainBgColor);
 }
 .loc {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 /*razni stili naslovov*/
 
@@ -42,6 +42,9 @@ body {
     letter-spacing: -0.15em;
     font-weight: 800;
 }*/
+.mobile {
+    min-height: auto !important;
+}
 
 h2,
 h3 {
@@ -148,6 +151,10 @@ sup {
 
     img {
         width: 450px;
+        margin-top: 50%;
+    }
+    .mobile {
+        min-height: 100vh !important;
     }
 }
 
