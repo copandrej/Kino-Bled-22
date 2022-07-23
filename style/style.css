@@ -22,7 +22,7 @@
 }
 
 img {
-    width: 500px;
+    width: 800px;
     /*600px*/
 }
 
@@ -32,14 +32,16 @@ body {
     overflow-y: scroll;
     background-color: var(--mainBgColor);
 }
-
+.loc {
+    margin-left: 20px;
+}
 /*razni stili naslovov*/
 
-h1 {
+/*h1 {
     font-size: 100pt;
     letter-spacing: -0.15em;
     font-weight: 800;
-}
+}*/
 
 h2,
 h3 {
