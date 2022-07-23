@@ -140,6 +140,12 @@ const enJson = {
                 ]
             },
             {
+                "naslov": "123",
+                "vrstice": [
+                    "festival opening"
+                ]
+            },
+            {
                 "naslov": "20:00",
                 "vrstice": [
                     "<a target='_blank' href='https://www.imdb.com/title/tt8151874/'>Honey Boy (94')</a>"
@@ -148,7 +154,7 @@ const enJson = {
         ],
         "TUESDAY": [
             {
-                "naslov": "19:00",
+                "naslov": "123",
                 "vrstice": [
                     "festival opening"
                 ]
@@ -162,7 +168,7 @@ const enJson = {
         ],
         "WEDNESDAY": [
             {
-                "naslov": "07:30",
+                "naslov": "32",
                 "vrstice": [
                     "<a target='_blank' href='https://www.mojaobcina.si/prenosi/novice/bled/212079_etmvabilokolesarskizajtrk.pdf'>european mobility week: cyclist breakfast</a>",
                     "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
@@ -240,31 +246,6 @@ const enJson = {
             }
         ],
         "SATURDAY": [
-            {
-                "naslov": "12:30",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.facebook.com/events/402498801257873/'>debate: Me, you and us in a relationship</a>",
-                    "<a href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6' target='_blank'>@Tavci Vegan Cafe</a>"
-                ]
-            },
-            {
-                "naslov": "15:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.imdb.com/title/tt6193408/?ref_=nv_sr_srsg_3'>Shaun the Sheep Movie: Farmageddon (87’)</a>"
-                ]
-            },
-            {
-                "naslov": "17:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.facebook.com/events/390693665840430/'>round table: Aspekts of Bled</a>"
-                ]
-            },
-            {
-                "naslov": "19:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.imdb.com/title/tt11394298/?ref_=nv_sr_srsg_0'>The Mole Agent (84’)</a>"
-                ]
-            },
             {
                 "naslov": "21:00",
                 "vrstice": [
@@ -306,7 +287,7 @@ const enJson = {
         ],
         "TUESDAY": [
             {
-                "naslov": "19:00",
+                "naslov": "test",
                 "vrstice": [
                     "festival opening"
                 ]
@@ -319,13 +300,6 @@ const enJson = {
             }
         ],
         "WEDNESDAY": [
-            {
-                "naslov": "07:30",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.mojaobcina.si/prenosi/novice/bled/212079_etmvabilokolesarskizajtrk.pdf'>european mobility week: cyclist breakfast</a>",
-                    "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
-                ]
-            },
             {
                 "naslov": "18:00",
                 "vrstice": [
@@ -348,17 +322,9 @@ const enJson = {
         ],
         "THURSDAY": [
             {
-                "naslov": "17:30",
+                "naslov": "more testing",
                 "vrstice": [
                     "<a href='https://www.facebook.com/events/546848996416533/' target='_blank'>travelogue: Greece</a>",
-                    "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
-                ]
-            },
-            {
-                "naslov": "19:00",
-                "vrstice": [
-                    "Bike (3’)",
-                    "<a target='_blank'href='https://www.imdb.com/title/tt3422078/'>April and the Extraordinary World (105’)</a>",
                     "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
                 ]
             },
@@ -371,13 +337,6 @@ const enJson = {
             }
         ],
         "FRIDAY": [
-            {
-                "naslov": "10:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.bled.si/en/events/2021090112071356/guided-tour-of-bled'>guided tour of Bled</a>",
-                    "<a href='https://goo.gl/maps/sep7vTan7DtZj3bx5' target='_blank'>@Tourist information centre</a>"
-                ]
-            },
             {
                 "naslov": "17:00",
                 "vrstice": [
@@ -398,25 +357,6 @@ const enJson = {
             }
         ],
         "SATURDAY": [
-            {
-                "naslov": "12:30",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.facebook.com/events/402498801257873/'>debate: Me, you and us in a relationship</a>",
-                    "<a href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6' target='_blank'>@Tavci Vegan Cafe</a>"
-                ]
-            },
-            {
-                "naslov": "15:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.imdb.com/title/tt6193408/?ref_=nv_sr_srsg_3'>Shaun the Sheep Movie: Farmageddon (87’)</a>"
-                ]
-            },
-            {
-                "naslov": "17:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.facebook.com/events/390693665840430/'>round table: Aspekts of Bled</a>"
-                ]
-            },
             {
                 "naslov": "19:00",
                 "vrstice": [
@@ -454,12 +394,6 @@ const enJson = {
                 "vrstice": [
                     "festival opening"
                 ]
-            },
-            {
-                "naslov": "20:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.imdb.com/title/tt8151874/'>Honey Boy (94')</a>"
-                ]
             }
         ],
         "TUESDAY": [
@@ -478,25 +412,6 @@ const enJson = {
         ],
         "WEDNESDAY": [
             {
-                "naslov": "07:30",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.mojaobcina.si/prenosi/novice/bled/212079_etmvabilokolesarskizajtrk.pdf'>european mobility week: cyclist breakfast</a>",
-                    "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
-                ]
-            },
-            {
-                "naslov": "18:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.facebook.com/events/4351434924950484/'>photo exhibition opening: Martin Krivec</a>"
-                ]
-            },
-            {
-                "naslov": "19:00",
-                "vrstice": [
-                    "<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"
-                ]
-            },
-            {
                 "naslov": "21:00",
                 "vrstice": [
                     "Firefly Club (7’)",
@@ -509,21 +424,6 @@ const enJson = {
                 "naslov": "17:30",
                 "vrstice": [
                     "<a href='https://www.facebook.com/events/546848996416533/' target='_blank'>travelogue: Greece</a>",
-                    "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
-                ]
-            },
-            {
-                "naslov": "19:00",
-                "vrstice": [
-                    "Bike (3’)",
-                    "<a target='_blank'href='https://www.imdb.com/title/tt3422078/'>April and the Extraordinary World (105’)</a>",
-                    "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
-                ]
-            },
-            {
-                "naslov": "21:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.emeraldparadise.at/?lang=sl&fbclid=IwAR3aAm7nKjEhT7q7gcMcDCJBiWPdC6Q1fq8ITxDApzQS2HSK_C3_KE4KMuo'>Emerald Paradise (59’)</a>",
                     "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
                 ]
             }
@@ -561,24 +461,6 @@ const enJson = {
                 "vrstice": [
                     "<a target='_blank' href='https://www.facebook.com/events/402498801257873/'>debate: Me, you and us in a relationship</a>",
                     "<a href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6' target='_blank'>@Tavci Vegan Cafe</a>"
-                ]
-            },
-            {
-                "naslov": "15:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.imdb.com/title/tt6193408/?ref_=nv_sr_srsg_3'>Shaun the Sheep Movie: Farmageddon (87’)</a>"
-                ]
-            },
-            {
-                "naslov": "17:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.facebook.com/events/390693665840430/'>round table: Aspekts of Bled</a>"
-                ]
-            },
-            {
-                "naslov": "19:00",
-                "vrstice": [
-                    "<a target='_blank' href='https://www.imdb.com/title/tt11394298/?ref_=nv_sr_srsg_0'>The Mole Agent (84’)</a>"
                 ]
             },
             {
