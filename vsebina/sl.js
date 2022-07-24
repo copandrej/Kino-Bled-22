@@ -1,80 +1,81 @@
 slJson = {
   "park":
   {
-    "MONDAY": [
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "Projekcija presenečenja"
-        ]
-      }
-    ],
-    "TUESDAY": [
-      {
-        "naslov": "19:00",
-        "vrstice": [
-          "Samuel Blues"
-        ]
-      },
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "Inventura"
-        ]
-      }
-    ],
-    "WEDNESDAY": [
-      {
-        "naslov": "19:00",
-        "vrstice": [
-          "Popotnik"/*<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>*/
-        ]
-      },
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "Vse povsod naenkrat"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
-        ]
-      }
-    ],
-    "THURSDAY": [
-      {
-        "naslov": "19:00",
-        "vrstice": [
-          "Masharik"
-        ]
-      },
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "Ena za reko: Zgodba Save"
-        ]
-      }
-    ],
-    "FRIDAY": [
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "Kajmak in marmelada"
-        ]
-      }
-    ],
-    "SATURDAY": [
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "Neverjetno, a resnično"
-        ]
-      }
-    ],
-    "SUNDAY": [
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "Neke vrste nebesa"
-        ]
-      }
-    ]
+      "MONDAY": [
+          {
+              "naslov": "21:30",
+              "vrstice": [
+                  "Projekcija presenečenja"
+              ]
+          }
+      ],
+      "TUESDAY": [
+          {
+              "naslov": "19:00",
+              "vrstice": [
+                  "<a target='_blank'href='https://www.youtube.com/c/SamuelBlues'>Samuel Blues</a>"
+              ]
+          },
+          {
+              "naslov": "21:30",
+              "vrstice": [
+                  "<a target='_blank'href='https://fivia.si/index.php/movie/inventura/'>Inventura (106')</a>"
+              ]
+          }
+      ],
+      "WEDNESDAY": [
+          {
+              "naslov": "19:00",
+              "vrstice": [
+                  "<a target='_blank'href='https://www.youtube.com/channel/UC9ZuR0WOrS2ioOxPOxAB1MQ'>Popotnik</a>"/*<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>*/
+              ]
+          },
+          {
+              "naslov": "21:30",
+              "vrstice": [
+                  "<a target='_blank'href='https://fivia.si/index.php/movie/everything-everywhere-all-at-once/'>Vse povsod naenkrat (140')</a>"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
+              ]
+          }
+      ],
+      "THURSDAY": [
+          {
+              "naslov": "19:00",
+              "vrstice": [
+                  "<a target='_blank'href='https://www.youtube.com/c/masharikband'>Masharik</a>"
+              ]
+          },
+          {
+              "naslov": "21:30",
+              "vrstice": [
+                  "<a target='_blank'href='https://balkanriverdefence.org/zgodba-save/'>Ena za reko: Zgodba Save (84')</a>"
+              ]
+          }
+      ],
+      "FRIDAY": [
+          {
+              "naslov": "21:30",
+              "vrstice": [
+                  "<a target='_blank'href='https://bsf.si/sl/film/kajmak-in-marmelada/'>Kajmak in marmelada (92')</a>"
+              ]
+          }
+      ],
+      "SATURDAY": [
+          {
+              "naslov": "21:30",
+              "vrstice": [
+                  "<a target='_blank'href='https://fivia.si/index.php/movie/incredible-but-true/'>Neverjetno, a resnično(73')</a>",
+                  "Lana in Toni (23’)"
+              ]
+          }
+      ],
+      "SUNDAY": [
+          {
+              "naslov": "21:30",
+              "vrstice": [
+                  "<a target='_blank'href='https://www.imdb.com/title/tt11358166/'>Neke vrste nebesa (81')</a>"
+              ]
+          }
+      ]
   },
   "fes":
   {
@@ -96,53 +97,84 @@ slJson = {
     ],
     "WEDNESDAY": [
       {
-        "naslov": "19:00",
+        "naslov": "18:00",
         "vrstice": [
-          "Popotnik"
+          "<a target='_blank'href='https://fivia.si/index.php/movie/lux-aeterna/'>Lux Aeterna (51')</a>"
         ]
       },
       {
-        "naslov": "21:30",
+        "naslov": "19:15",
         "vrstice": [
-          "Vse povsod naenkrat"
+          "<a target='_blank'href='https://bsf.si/sl/film/ameba/'>AMEBA (72')</a>"
         ]
       }
     ],
     "THURSDAY": [
       {
-        "naslov": "19:00",
+        "naslov": "18:00",
         "vrstice": [
-          "Masharik"
-        ]
-      },
-      {
-        "naslov": "21:30",
-        "vrstice": [
-          "One for the River. Sava Story"
+          "<a target='_blank'href='#'>Sklop naravoljubnih filmov</a>"
         ]
       }
     ],
     "FRIDAY": [
       {
-        "naslov": "21:30",
+        "naslov": "11:00",
         "vrstice": [
-          "Kajmak in marmelada"
+          "<a target='_blank'href='https://fivia.si/index.php/movie/ernest-in-celestina/'>Ernest in Celestina (79’)</a>"
+        ]
+      },
+      {
+        "naslov": "15:00",
+        "vrstice": [
+          "<a target='_blank'href='https://demiurg.si/futura/'>Futura (108')</a>"
+        ]
+      },
+      {
+        "naslov": "18:00",
+        "vrstice": [
+          "<a target='_blank'href='https://fivia.si/index.php/movie/cmon-cmon/'>Dej no (109')</a>"
         ]
       }
     ],
     "SATURDAY": [
       {
-        "naslov": "21:30",
+        "naslov": "11:00",
         "vrstice": [
-          "Incredible, but true"
+          "<a target='_blank'href='https://gremovkino.si/film/napovednik/20204/Minioni-Grujev-vzpon'>Minioni: Grujev vzpon (88’)</a>"
+        ]
+      },
+      {
+        "naslov": "15:00",
+        "vrstice": [
+          "<a target='_blank'href='https://fivia.si/index.php/movie/bad-luck-banging-or-loony-porn/'>Nesrečni fuk ali nori pornič (106')</a>"
+        ]
+      },
+      {
+        "naslov": "18:00",
+        "vrstice": [
+          "<a target='_blank'href='https://fivia.si/index.php/movie/the-big-hit/'>Triumf (105’)</a>"
         ]
       }
     ],
     "SUNDAY": [
       {
-        "naslov": "21:30",
+        "naslov": "11:00",
         "vrstice": [
-          "Some Kind of Heaven"
+          "<a target='_blank'href='http://misi.animateka.si/'>Tudi miši gredo v nebesa (87’) </a>",
+          "Tvoja gora te čaka (8')"
+        ]
+      },
+      {
+        "naslov": "15:00",
+        "vrstice": [
+          "<a target='_blank'href='#'>Sklop kratkih tekmovalnih</a>"
+        ]
+      },
+      {
+        "naslov": "18:00",
+        "vrstice": [
+          "<a target='_blank'href='https://fivia.si/index.php/movie/vortex/'>Vorteks (135’)</a>"
         ]
       }
     ]

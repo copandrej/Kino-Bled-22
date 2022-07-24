@@ -58,15 +58,18 @@ window.addEventListener("load", () => {
     $(".fes").click(() => {
         resetColor();
         $(".fes").css("color", "#df6437");
+        trenutnaLokacija = "fes";
         vsebina(trenutniJezik, "fes");
     });
     $(".itc").click(() => {
         resetColor();
         $(".itc").css("color", "#df6437");
+        trenutnaLokacija = "itc";
         vsebina(trenutniJezik, "itc");
     });
     $(".park").click(() => {
         resetColor();
+        trenutnaLokacija = "park";
         $(".park").css("color", "#df6437");
         vsebina(trenutniJezik, "park");
     });
@@ -93,7 +96,7 @@ window.addEventListener("load", () => {
             prevedi[3].innerHTML = "DRUGO";
             prevedi[4].innerHTML = "KUPI VSTOPNICE";
             prevedi[5].innerHTML = "PI&#352ITE NAM";
-            vsebina(trenutniJezik);
+            vsebina(trenutniJezik, trenutnaLokacija);
 
         } else {
             trenutniJezik = "en";
@@ -107,7 +110,7 @@ window.addEventListener("load", () => {
             prevedi[3].innerHTML = "OTHER";
             prevedi[4].innerHTML = "BUY TICKETS";
             prevedi[5].innerHTML = "EMAIL US";
-            vsebina(trenutniJezik);
+            vsebina(trenutniJezik, trenutnaLokacija);
         }
     }
 

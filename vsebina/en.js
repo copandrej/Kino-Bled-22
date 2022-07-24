@@ -13,13 +13,13 @@ enJson = {
             {
                 "naslov": "19:00",
                 "vrstice": [
-                    "Samuel Blues"
+                    "<a target='_blank'href='https://www.youtube.com/c/SamuelBlues'>Samuel Blues</a>"
                 ]
             },
             {
                 "naslov": "21:30",
                 "vrstice": [
-                    "Inventura"
+                    "<a target='_blank'href='https://www.imdb.com/title/tt9660170/'>Inventura (106')</a>"
                 ]
             }
         ],
@@ -27,13 +27,13 @@ enJson = {
             {
                 "naslov": "19:00",
                 "vrstice": [
-                    "Popotnik"/*<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>*/
+                    "<a target='_blank'href='https://www.youtube.com/channel/UC9ZuR0WOrS2ioOxPOxAB1MQ'>Popotnik</a>"/*<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>*/
                 ]
             },
             {
                 "naslov": "21:30",
                 "vrstice": [
-                    "Everything Everywhere All at Once"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
+                    "<a target='_blank'href='https://www.imdb.com/title/tt6710474/'>Everything Everywhere All at Once (140')</a>"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
                 ]
             }
         ],
@@ -41,13 +41,13 @@ enJson = {
             {
                 "naslov": "19:00",
                 "vrstice": [
-                    "Masharik"
+                    "<a target='_blank'href='https://www.youtube.com/c/masharikband'>Masharik</a>"
                 ]
             },
             {
                 "naslov": "21:30",
                 "vrstice": [
-                    "One for the River. Sava Story"
+                    "<a target='_blank'href='https://balkanriverdefence.org/zgodba-save/'>One for the River. Sava Story (84')</a>"
                 ]
             }
         ],
@@ -55,7 +55,7 @@ enJson = {
             {
                 "naslov": "21:30",
                 "vrstice": [
-                    "Kajmak in marmelada"
+                    "<a target='_blank'href='https://www.imdb.com/title/tt0333701/'>Kajmak in marmelada (92')</a>"
                 ]
             }
         ],
@@ -63,7 +63,8 @@ enJson = {
             {
                 "naslov": "21:30",
                 "vrstice": [
-                    "Incredible, but true"
+                    "<a target='_blank'href='https://www.imdb.com/title/tt13145534/'>Incredible, but true (73')</a>",
+                    "Lana in Toni (23’)"
                 ]
             }
         ],
@@ -71,81 +72,112 @@ enJson = {
             {
                 "naslov": "21:30",
                 "vrstice": [
-                    "Some Kind of Heaven"
+                    "<a target='_blank'href='https://www.imdb.com/title/tt11358166/'>Some Kind of Heaven (81')</a>"
                 ]
             }
         ]
     },
     "fes":
     {
-        "MONDAY": [
-            {
-                "naslov": "",
-                "vrstice": [
-                    ""
-                ]
-            }
-        ],
-        "TUESDAY": [
-            {
-                "naslov": "",
-                "vrstice": [
-                    ""
-                ]
-            }
-        ],
-        "WEDNESDAY": [
-            {
-                "naslov": "19:00",
-                "vrstice": [
-                    "Popotnik"
-                ]
-            },
-            {
-                "naslov": "21:30",
-                "vrstice": [
-                    "Everything Everywhere All at Once"
-                ]
-            }
-        ],
-        "THURSDAY": [
-            {
-                "naslov": "19:00",
-                "vrstice": [
-                    "Masharik"
-                ]
-            },
-            {
-                "naslov": "21:30",
-                "vrstice": [
-                    "One for the River. Sava Story"
-                ]
-            }
-        ],
-        "FRIDAY": [
-            {
-                "naslov": "21:30",
-                "vrstice": [
-                    "Kajmak in marmelada"
-                ]
-            }
-        ],
-        "SATURDAY": [
-            {
-                "naslov": "21:30",
-                "vrstice": [
-                    "Incredible, but true"
-                ]
-            }
-        ],
-        "SUNDAY": [
-            {
-                "naslov": "21:30",
-                "vrstice": [
-                    "Some Kind of Heaven"
-                ]
-            }
-        ]
+      "MONDAY": [
+        {
+          "naslov": "",
+          "vrstice": [
+            ""
+          ]
+        }
+      ],
+      "TUESDAY": [
+        {
+          "naslov": "",
+          "vrstice": [
+            ""
+          ]
+        }
+      ],
+      "WEDNESDAY": [
+        {
+          "naslov": "18:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/lux-aeterna-2019/'>Lux Aeterna (51')</a>"
+          ]
+        },
+        {
+          "naslov": "19:15",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/amoeba-2021/'>AMEBA (72')</a>"
+          ]
+        }
+      ],
+      "THURSDAY": [
+        {
+          "naslov": "18:00",
+          "vrstice": [
+            "<a target='_blank'href='#'>Nature loving shorts</a>"
+          ]
+        }
+      ],
+      "FRIDAY": [
+        {
+          "naslov": "11:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/ernest-celestine/'>Ernest in Celestina (79’)</a>"
+          ]
+        },
+        {
+          "naslov": "15:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/futura-2021/'>Futura (108')</a>"
+          ]
+        },
+        {
+          "naslov": "18:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/cmon-cmon/'>C’mon C’mon (109')</a>"
+          ]
+        }
+      ],
+      "SATURDAY": [
+        {
+          "naslov": "11:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/minions-the-rise-of-gru/'>Minions: The Rise of Gru (88’)</a>"
+          ]
+        },
+        {
+          "naslov": "15:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/bad-luck-banging-or-loony-porn/'>Bad Luck Banging or Loony Porn(106')</a>"
+          ]
+        },
+        {
+          "naslov": "18:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/film:635235/'>The Big Hit (105’)</a>"
+          ]
+        }
+      ],
+      "SUNDAY": [
+        {
+          "naslov": "11:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/even-mice-belong-in-heaven/'>Even Mice Belong in Heaven (87')</a>",
+            "Your Mountain is Waiting(8')"
+          ]
+        },
+        {
+          "naslov": "15:00",
+          "vrstice": [
+            "<a target='_blank'href='#'>Competitive shorts programme</a>"
+          ]
+        },
+        {
+          "naslov": "18:00",
+          "vrstice": [
+            "<a target='_blank'href='https://letterboxd.com/film/vortex-2021/'>Vortex (135’)</a>"
+          ]
+        }
+      ]
     },
     "itc":
     {
