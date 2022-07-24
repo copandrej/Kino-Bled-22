@@ -94,8 +94,9 @@ window.addEventListener("load", () => {
             prevedi[1].innerHTML = "IZBERITE KRAJ:";
             prevedi[2].innerHTML = "FESTIVALNA";
             prevedi[3].innerHTML = "DRUGO";
-            prevedi[4].innerHTML = "KUPI VSTOPNICE";
-            prevedi[5].innerHTML = "PI&#352ITE NAM";
+            prevedi[4].innerHTML = "VSTOP PROST";
+            prevedi[5].innerHTML = "KUPI VSTOPNICE";
+            prevedi[6].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik, trenutnaLokacija);
 
         } else {
@@ -108,8 +109,9 @@ window.addEventListener("load", () => {
             prevedi[1].innerHTML = "SELECT THE VENUE:";
             prevedi[2].innerHTML = "FESTIVAL HALL";
             prevedi[3].innerHTML = "OTHER";
-            prevedi[4].innerHTML = "BUY TICKETS";
-            prevedi[5].innerHTML = "EMAIL US";
+            prevedi[4].innerHTML = "FREE ENTRY";
+            prevedi[5].innerHTML = "BUY TICKETS";
+            prevedi[6].innerHTML = "EMAIL US";
             vsebina(trenutniJezik, trenutnaLokacija);
         }
     }
@@ -127,10 +129,15 @@ window.addEventListener("load", () => {
         else
             data = enJson;
 
-        if (lokacija == "fes")
+        if (lokacija == "fes") {
             $(".display").css("display", "none");
-        else
+            $(".no-display").css("display", "block");
+
+        }
+        else {
             $(".display").css("display", "block");
+            $(".no-display").css("display", "none");
+        }
 
         for (let i = 0; i < dnevi.length; i++) {
             let string = "";
