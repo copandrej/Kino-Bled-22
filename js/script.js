@@ -51,7 +51,7 @@ window.addEventListener("load", () => {
     $(".slo").click(() => { spremembaJezika("sl"); });
     $(".eng").click(() => { spremembaJezika("en"); });
 
-    $("#down").click(() => { 
+    $("#program").click(() => { 
         $(".arrow").css("border-color", "transparent");
      });
 

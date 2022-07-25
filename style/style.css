@@ -30,8 +30,10 @@ img {
 
 /*down arrow for mobile*/
 .arrow {
+    position: absolute;
+    left: 45vw;
+    top: 82vh;
     display: none;
-    margin-top: 25vh;
     border: solid var(--mainTxtColor);
     border-width: 0 7px 7px 0;
     display: inline-block;
