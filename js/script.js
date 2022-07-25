@@ -95,7 +95,7 @@ window.addEventListener("load", () => {
             prevedi[2].innerHTML = "FESTIVALNA";
             prevedi[3].innerHTML = "DRUGO";
             prevedi[4].innerHTML = "VSTOP PROST";
-            prevedi[5].innerHTML = "KUPI VSTOPNICE";
+            prevedi[5].innerHTML = '<a class="no-display" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank" style="display: none;">KUPI VSTOPNICE</a>';
             prevedi[6].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik, trenutnaLokacija);
 
@@ -110,7 +110,7 @@ window.addEventListener("load", () => {
             prevedi[2].innerHTML = "FESTIVAL HALL";
             prevedi[3].innerHTML = "OTHER";
             prevedi[4].innerHTML = "FREE ENTRY";
-            prevedi[5].innerHTML = "BUY TICKETS";
+            prevedi[5].innerHTML = '<a class="no-display" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank" style="display: none;">BUY TICKETS</a>';
             prevedi[6].innerHTML = "EMAIL US";
             vsebina(trenutniJezik, trenutnaLokacija);
         }
