@@ -51,6 +51,7 @@ img {
 
 body {
     overflow-y: scroll;
+    overflow-x: hidden;
     background-color: var(--mainBgColor);
 }
 
@@ -150,7 +151,7 @@ sup {
 
 .noga {
     margin-top: 55px;
-    padding-bottom: 190px;
+    padding-bottom: 150px;
 }
 
 .visually-hidden {
@@ -194,6 +195,12 @@ sup {
     }
     .down {
         display: inline-block;
+    }
+    .noga {
+        padding-bottom: 355px;
+    }
+    #program {
+        padding-top: 55px;
     }
 }
 
