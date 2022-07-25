@@ -1,81 +1,81 @@
 slJson = {
   "park":
   {
-      "MONDAY": [
-          {
-              "naslov": "21:30",
-              "vrstice": [
-                  "Projekcija presenečenja"
-              ]
-          }
-      ],
-      "TUESDAY": [
-          {
-              "naslov": "19:00",
-              "vrstice": [
-                  "<a target='_blank'href='https://www.youtube.com/c/SamuelBlues'>Samuel Blues</a>"
-              ]
-          },
-          {
-              "naslov": "21:30",
-              "vrstice": [
-                  "<a target='_blank'href='https://fivia.si/index.php/movie/inventura/'>Inventura (106')</a>"
-              ]
-          }
-      ],
-      "WEDNESDAY": [
-          {
-              "naslov": "19:00",
-              "vrstice": [
-                  "<a target='_blank'href='https://www.youtube.com/channel/UC9ZuR0WOrS2ioOxPOxAB1MQ'>Popotnik</a>"/*<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>*/
-              ]
-          },
-          {
-              "naslov": "21:30",
-              "vrstice": [
-                  "<a target='_blank'href='https://fivia.si/index.php/movie/everything-everywhere-all-at-once/'>Vse povsod naenkrat (140')</a>"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
-              ]
-          }
-      ],
-      "THURSDAY": [
-          {
-              "naslov": "19:00",
-              "vrstice": [
-                  "<a target='_blank'href='https://www.youtube.com/c/masharikband'>Masharik</a>"
-              ]
-          },
-          {
-              "naslov": "21:30",
-              "vrstice": [
-                  "<a target='_blank'href='https://balkanriverdefence.org/zgodba-save/'>Ena za reko: Zgodba Save (84')</a>"
-              ]
-          }
-      ],
-      "FRIDAY": [
-          {
-              "naslov": "21:30",
-              "vrstice": [
-                  "<a target='_blank'href='https://bsf.si/sl/film/kajmak-in-marmelada/'>Kajmak in marmelada (92')</a>"
-              ]
-          }
-      ],
-      "SATURDAY": [
-          {
-              "naslov": "21:30",
-              "vrstice": [
-                  "<a target='_blank'href='https://fivia.si/index.php/movie/incredible-but-true/'>Neverjetno, a resnično(73')</a>",
-                  "Lana in Toni (23’)"
-              ]
-          }
-      ],
-      "SUNDAY": [
-          {
-              "naslov": "21:30",
-              "vrstice": [
-                  "<a target='_blank'href='https://www.imdb.com/title/tt11358166/'>Neke vrste nebesa (81')</a>"
-              ]
-          }
-      ]
+    "MONDAY": [
+      {
+        "naslov": "21:30",
+        "vrstice": [
+          "Projekcija presenečenja"
+        ]
+      }
+    ],
+    "TUESDAY": [
+      {
+        "naslov": "19:00",
+        "vrstice": [
+          "<a target='_blank'href='https://www.youtube.com/c/SamuelBlues'>Samuel Blues</a>"
+        ]
+      },
+      {
+        "naslov": "21:30",
+        "vrstice": [
+          "<a target='_blank'href='https://fivia.si/index.php/movie/inventura/'>Inventura (106')</a>"
+        ]
+      }
+    ],
+    "WEDNESDAY": [
+      {
+        "naslov": "19:00",
+        "vrstice": [
+          "<a target='_blank'href='https://www.youtube.com/channel/UC9ZuR0WOrS2ioOxPOxAB1MQ'>Popotnik</a>"/*<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>*/
+        ]
+      },
+      {
+        "naslov": "21:30",
+        "vrstice": [
+          "<a target='_blank'href='https://fivia.si/index.php/movie/everything-everywhere-all-at-once/'>Vse povsod naenkrat (140')</a>"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
+        ]
+      }
+    ],
+    "THURSDAY": [
+      {
+        "naslov": "19:00",
+        "vrstice": [
+          "<a target='_blank'href='https://www.youtube.com/c/masharikband'>Masharik</a>"
+        ]
+      },
+      {
+        "naslov": "21:30",
+        "vrstice": [
+          "<a target='_blank'href='https://balkanriverdefence.org/zgodba-save/'>Ena za reko: Zgodba Save (84')</a>"
+        ]
+      }
+    ],
+    "FRIDAY": [
+      {
+        "naslov": "21:30",
+        "vrstice": [
+          "<a target='_blank'href='https://bsf.si/sl/film/kajmak-in-marmelada/'>Kajmak in marmelada (92')</a>"
+        ]
+      }
+    ],
+    "SATURDAY": [
+      {
+        "naslov": "21:30",
+        "vrstice": [
+          "<a target='_blank'href='https://fivia.si/index.php/movie/incredible-but-true/'>Neverjetno, a resnično(73')</a>",
+          "Lana in Toni (23’)"
+        ]
+      }
+    ],
+    "SUNDAY": [
+      {
+        "naslov": "21:30",
+        "vrstice": [
+          "<a target='_blank'href='https://www.imdb.com/title/tt11358166/'>Neke vrste nebesa (81')</a>"
+        ]
+      }
+    ]
   },
   "fes":
   {

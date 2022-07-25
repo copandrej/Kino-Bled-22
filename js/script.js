@@ -1,21 +1,19 @@
-let temp = null;
-
 /*Malo grša kot lani, ampak sem moral dodati funkcionalnost da se ostale zaprejo*/
+let temp = null;
 function zapri(el) {
     if (temp != null) {
         let buff = temp;
         temp = null;
         zapri(buff);
     }
+
     if (el.clientHeight >= 45) {
         el.style.height = "41px";
         temp = null;
-    }
-    else {
+    } else {
         el.style.height = (el.childNodes[3].clientHeight + 41).toString() + "px";
         temp = el;
     }
-
 }
 
 /*poravna elemente da so zliti z vsebino*/
@@ -59,19 +57,19 @@ window.addEventListener("load", () => {
         resetColor();
         $(".fes").css("color", "#df6437");
         trenutnaLokacija = "fes";
-        vsebina(trenutniJezik, "fes");
+        vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".itc").click(() => {
         resetColor();
         $(".itc").css("color", "#df6437");
         trenutnaLokacija = "itc";
-        vsebina(trenutniJezik, "itc");
+        vsebina(trenutniJezik, trenutnaLokacija);
     });
     $(".park").click(() => {
         resetColor();
         trenutnaLokacija = "park";
         $(".park").css("color", "#df6437");
-        vsebina(trenutniJezik, "park");
+        vsebina(trenutniJezik, trenutnaLokacija);
     });
 
     /*popucaj barva pritisnjenih gumbov*/
@@ -81,7 +79,9 @@ window.addEventListener("load", () => {
         $(".park").css("color", "#ffebc6");
     }
 
-    /**najprej spemeni dneve v tednu, da je to čim hitreje nato vsebina() spremeni še program -> function vsebina() */
+    /**najprej spemeni dneve v tednu, da je to čim hitreje nato vsebina() spremeni še program -> function vsebina(). 
+     * To bi se dalo tudi lepše napisati, ampak je bilo naknadnjo skalirano in raje nisem spremenil.
+     */
     function spremembaJezika(Jezik) {
         if (Jezik == "sl") {
             trenutniJezik = "sl";
@@ -121,6 +121,7 @@ window.addEventListener("load", () => {
      * js prebere in zgradi html strukturo za dinamično veliko vsebino
      * prostor za izbolšavo z api ali bazo
      */
+    
     function vsebina(jezik, lokacija = "park") {
         let imeDatoteke = `./vsebina/${jezik}.json`
         /*$.getJSON(imeDatoteke, (data) => {*/

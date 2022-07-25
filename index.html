@@ -35,14 +35,14 @@
     <meta name="theme-color" content="#26281f">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-    <!-- Styles
-    <link rel="stylesheet" href="style/normalize.css">-->
+    <!-- Styles-->
     <link rel="stylesheet" href="style/style.css">
-
 </head>
 
 <body>
+
     <div class="mobile">
+
         <div class="jezik">
             <h3><span class="hover slo">SLO</span> / <span class="hover eng">ENG</span></h3>
         </div>
@@ -58,110 +58,86 @@
         </div>
     </div>
 
-    <h3 class="prevedi" style="margin-bottom: -20px;">select the venue</h3>
+    <h3 class="prevedi" style="margin-bottom: -20px;">IZBERITE KRAJ:</h3>
     <h3 style="padding-bottom: 20px;"><br><br>
-        <span class="hover loc park">PARK</span> <span class="hover loc fes prevedi">FESTIVALNA</span> <span class="hover loc itc prevedi">DRUGO</span>
+        <span class="hover loc park" style="color: rgb(223, 100, 55);">PARK</span> <span class="hover loc fes prevedi" style="color: rgb(255, 235, 198);">FESTIVALNA</span> <span class="hover loc itc prevedi" style="color: rgb(255, 235, 198);">DRUGO</span>
     </h3>
 
-    <div class="r display" onclick="zapri(this)">
-        <h2><span class="minus">---</span><span class="hover dan">SATURDAY</span></h2>
+    <div class="r display" onclick="zapri(this)" style="display: block; height: 41px;">
+        <h2><span class="minus">---</span><span class="hover dan">PONEDELJEK</span></h2>
         <div class="skri">
-            <h3>12:30</h3>
-            <p>debate: Me, you and us in a relationship<br><a href="https://goo.gl/maps/VeBPAY4QCmNjsc5q6" target="_blank">@Tavci Vegan Cafe</a><br></p>
-            <h3>15:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt6193408/?ref_=nv_sr_srsg_3">Shaun the Sheep Movie: Farmageddon (87’)</a><br></p>
-            <h3>17:00</h3>
-            <p>round table: Aspekts of Bled<br></p>
-            <h3>19:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt11394298/?ref_=nv_sr_srsg_0">The Mole Agent (84’)</a><br></p>
-            <h3>21:00</h3>
-            <p>Easter (7’)<br><a target="_blank" href="https://www.imdb.com/title/tt5805752/?ref_=fn_al_tt_1">Brigsby Bear (97’)</a><br></p>
+            <h3>21:30</h3>
+            <p>Projekcija presenečenja<br></p>
         </div>
     </div>
 
-    <div class="r display" onclick="zapri(this)">
-        <h2><span class="minus">---</span><span class="hover dan">TUESDAY</span></h2>
+    <div class="r display" onclick="zapri(this)" style="display: block; height: 41px;">
+        <h2><span class="minus">---</span><span class="hover dan">TOREK</span></h2>
         <div class="skri">
             <h3>19:00</h3>
-            <p>festival opening<br></p>
-            <h3>20:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt8151874/">Honey Boy (94')</a><br></p>
+            <p><a target="_blank" href="https://www.youtube.com/c/SamuelBlues">Samuel Blues</a><br></p>
+            <h3>21:30</h3>
+            <p><a target="_blank" href="https://fivia.si/index.php/movie/inventura/">Inventura (106')</a><br></p>
         </div>
     </div>
 
     <div class="r" onclick="zapri(this)">
-        <h2><span class="minus">---</span><span class="hover dan">WEDNESDAY</span></h2>
+        <h2><span class="minus">---</span><span class="hover dan">SREDA</span></h2>
         <div class="skri">
-            <h3>07:30</h3>
-            <p><a target="_blank" href="https://www.mojaobcina.si/prenosi/novice/bled/212079_etmvabilokolesarskizajtrk.pdf">european mobility week: cyclist breakfast</a><br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
-            <h3>18:00</h3>
-            <p><a target="_blank" href="https://www.instagram.com/martinkrivec/">photo exhibition opening: Martin Krivec</a><br></p>
             <h3>19:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt0056591/">One Fine Day (83’)</a><br></p>
-            <h3>21:00</h3>
-            <p>Firefly Club (7’)<br><a target="_blank" href="https://www.imdb.com/title/tt3521126/">The Disaster Artist (104’)</a><br></p>
+            <p><a target="_blank" href="https://www.youtube.com/channel/UC9ZuR0WOrS2ioOxPOxAB1MQ">Popotnik</a><br></p>
+            <h3>21:30</h3>
+            <p><a target="_blank" href="https://fivia.si/index.php/movie/everything-everywhere-all-at-once/">Vse povsod
+                    naenkrat (140')</a><br></p>
+        </div>
+    </div>
+
+    <div class="r" onclick="zapri(this)" style="height: 41px;">
+        <h2><span class="minus">---</span><span class="hover dan" id="debug" style="display: inline;">ČETRTEK</span>
+        </h2>
+        <div class="skri">
+            <h3>19:00</h3>
+            <p><a target="_blank" href="https://www.youtube.com/c/masharikband">Masharik</a><br></p>
+            <h3>21:30</h3>
+            <p><a target="_blank" href="https://balkanriverdefence.org/zgodba-save/">Ena za reko: Zgodba Save
+                    (84')</a><br></p>
         </div>
     </div>
 
     <div class="r" onclick="zapri(this)">
-        <h2><span class="minus">---</span><span class="hover dan" id="debug" style="display: inline;">THURSDAY</span></h2>
+        <h2><span class="minus">---</span><span class="hover dan">PETEK</span></h2>
         <div class="skri">
-            <h3>17:30</h3>
-            <p>travelogue: Greece<br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
-            <h3>19:00</h3>
-            <p>Bike (3’)<br><a target="_blank" href="https://www.imdb.com/title/tt3422078/">April and the Extraordinary World (105’)</a><br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
-            <h3>21:00</h3>
-            <p><a target="_blank" href="https://www.emeraldparadise.at/?lang=sl&amp;fbclid=IwAR3aAm7nKjEhT7q7gcMcDCJBiWPdC6Q1fq8ITxDApzQS2HSK_C3_KE4KMuo">Emerald Paradise (59’)</a><br><a href="https://goo.gl/maps/UVfN6wr5MRfTd2sX6" target="_blank">@Infocenter Triglavska roža Bled</a><br></p>
+            <h3>21:30</h3>
+            <p><a target="_blank" href="https://bsf.si/sl/film/kajmak-in-marmelada/">Kajmak in marmelada (92')</a><br>
+            </p>
         </div>
     </div>
 
     <div class="r" onclick="zapri(this)">
-        <h2><span class="minus">---</span><span class="hover dan">FRIDAY</span></h2>
+        <h2><span class="minus">---</span><span class="hover dan">SOBOTA</span></h2>
         <div class="skri">
-            <h3>10:00</h3>
-            <p><a target="_blank" href="https://www.bled.si/en/events/2021090112071356/guided-tour-of-bled">guided tour of Bled</a><br><a href="https://goo.gl/maps/sep7vTan7DtZj3bx5" target="_blank">@Tourist information centre</a><br></p>
-            <h3>17:00</h3>-->
-            <p><a target="_blank" href="https://www.imdb.com/title/tt8359848/">Climax (96’)</a><br></p>
+            <h3>21:30</h3>
+            <p><a target="_blank" href="https://fivia.si/index.php/movie/incredible-but-true/">Neverjetno, a
+                    resnično(73')</a><br>Lana in Toni (23’)<br></p>
         </div>
     </div>
 
     <div class="r" onclick="zapri(this)">
-        <h2><span class="minus">---</span><span class="hover dan">SATURDAY</span></h2>
+        <h2><span class="minus">---</span><span class="hover dan">NEDELJA</span></h2>
         <div class="skri">
-            <h3>12:30</h3>
-            <p>debate: Me, you and us in a relationship<br><a href="https://goo.gl/maps/VeBPAY4QCmNjsc5q6" target="_blank">@Tavci Vegan Cafe</a><br></p>
-            <h3>15:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt6193408/?ref_=nv_sr_srsg_3">Shaun the Sheep Movie: Farmageddon (87’)</a><br></p>
-            <h3>17:00</h3>
-            <p>round table: Aspekts of Bled<br></p>
-            <h3>19:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt11394298/?ref_=nv_sr_srsg_0">The Mole Agent (84’)</a><br></p>
-            <h3>21:00</h3>
-            <p>Easter (7’)<br><a target="_blank" href="https://www.imdb.com/title/tt5805752/?ref_=fn_al_tt_1">Brigsby Bear (97’)</a><br></p>
-        </div>
-    </div>
-
-    <div class="r" onclick="zapri(this)">
-        <h2><span class="minus">---</span><span class="hover dan">SATURDAY</span></h2>
-        <div class="skri">
-            <h3>12:30</h3>
-            <p>debate: Me, you and us in a relationship<br><a href="https://goo.gl/maps/VeBPAY4QCmNjsc5q6" target="_blank">@Tavci Vegan Cafe</a><br></p>
-            <h3>15:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt6193408/?ref_=nv_sr_srsg_3">Shaun the Sheep Movie: Farmageddon (87’)</a><br></p>
-            <h3>17:00</h3>
-            <p>round table: Aspekts of Bled<br></p>
-            <h3>19:00</h3>
-            <p><a target="_blank" href="https://www.imdb.com/title/tt11394298/?ref_=nv_sr_srsg_0">The Mole Agent (84’)</a><br></p>
-            <h3>21:00</h3>
-            <p>Easter (7’)<br><a target="_blank" href="https://www.imdb.com/title/tt5805752/?ref_=fn_al_tt_1">Brigsby Bear (97’)</a><br></p>
+            <h3>21:30</h3>
+            <p><a target="_blank" href="https://www.imdb.com/title/tt11358166/">Neke vrste nebesa (81')</a><br></p>
         </div>
     </div>
 
     <div class="noga">
-        <h3 style="margin-bottom: 20px;"><span class="prevedi display">PROST VSTOP</span><a class="prevedi no-display" href="https://olaii.com/event/1922/kino-bled-2022" target="_blank">BUY TICKETS</a></h3>
-        <h3><a target="_blank" href="https://www.facebook.com/events/755700492533906/?ref=newsfeed">FACEBOOK</a> / <a target="_blank" href="https://www.instagram.com/kinobled/">INSTAGRAM</a></h3>
+        <h3 style="margin-bottom: 20px;"><span class="prevedi display" style="display: block;">VSTOP PROST</span><a
+                class="prevedi no-display" href="https://olaii.com/event/1922/kino-bled-2022" target="_blank"
+                style="display: none;">KUPI VSTOPNICE</a></h3>
+        <h3><a target="_blank" href="https://www.facebook.com/events/755700492533906/?ref=newsfeed">FACEBOOK</a> / <a
+                target="_blank" href="https://www.instagram.com/kinobled/">INSTAGRAM</a></h3>
         <a target="_blank" href="mailto:info@kinobled.com">
-            <h3><span class="hover prevedi">EMAIL US</span></h3>
+            <h3><span class="hover prevedi">PIŠITE NAM</span></h3>
         </a>
     </div>
 
@@ -169,7 +145,6 @@
     <script src="vsebina/en.js"></script>
     <script src="vsebina/sl.js"></script>
     <script src="js/script.js"></script>
-
 </body>
 
 </html>

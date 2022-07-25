@@ -44,7 +44,6 @@ Options -MultiViews
     AddType application/rdf+xml                         rdf
     AddType application/xml                             xml
 
-
   # JavaScript
 
     # Servers should use text/javascript for JavaScript resources.
@@ -52,13 +51,11 @@ Options -MultiViews
 
     AddType text/javascript                             js mjs
 
-
   # Manifest files
 
     AddType application/manifest+json                   webmanifest
     AddType application/x-web-app-manifest+json         webapp
     AddType text/cache-manifest                         appcache
-
 
   # Media files
 
@@ -81,11 +78,9 @@ Options -MultiViews
 
     AddType image/x-icon                                cur ico
 
-
   # WebAssembly
 
     AddType application/wasm                            wasm
-
 
   # Web fonts
 
@@ -95,7 +90,6 @@ Options -MultiViews
     AddType font/ttf                                    ttf
     AddType font/collection                             ttc
     AddType font/otf                                    otf
-
 
   # Other
 
@@ -222,11 +216,11 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteCond %{HTTPS} !=on
 #    # (1)
     # RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
     # RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[\w-]+$
 #    # RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteCond %{HTTPS} !=on
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
 
@@ -358,3 +352,8 @@ AddDefaultCharset utf-8
 # https://httpd.apache.org/docs/current/mod/core.html#serversignature
 
 ServerSignature Off
+RewriteCond %{HTTP_HOST} ^kinoklub\.si$
+RewriteRule ^/?$ "https\:\/\/kinoklub\.si\/kinoklub" [R=301,L]
+RewriteCond %{HTTP_HOST} ^kinobled\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kinobled\.com$
+RewriteRule ^kinoklub\/?$ "https\:\/\/kinoklub\.si\/kinoklub" [R=301,L]
