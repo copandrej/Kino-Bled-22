@@ -113,7 +113,7 @@ enJson = {
         {
           "naslov": "18:00",
           "vrstice": [
-            "<a target='_blank'href='#'>Nature loving shorts</a>"
+            "Nature loving shorts"
           ]
         }
       ],
@@ -168,7 +168,7 @@ enJson = {
         {
           "naslov": "15:00",
           "vrstice": [
-            "<a target='_blank'href='#'>Competitive shorts programme</a>"
+            "Competitive shorts programme"
           ]
         },
         {

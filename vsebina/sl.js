@@ -113,7 +113,7 @@ slJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a target='_blank'href='#'>Sklop naravoljubnih filmov</a>"
+          "Sklop naravoljubnih filmov"
         ]
       }
     ],
@@ -168,7 +168,7 @@ slJson = {
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a target='_blank'href='#'>Sklop kratkih tekmovalnih</a>"
+          " kratkih tekmovalnih"
         ]
       },
       {
