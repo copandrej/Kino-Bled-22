@@ -9,8 +9,10 @@ function zapri(el) {
 
     if (el.clientHeight >= 45) {
         el.style.height = "41px";
+        el.childNodes[1].childNodes[1].style.color = '#ffebc6';
         temp = null;
     } else {
+        el.childNodes[1].childNodes[1].style.color = '#df6437';
         el.style.height = (el.childNodes[3].clientHeight + 41).toString() + "px";
         temp = el;
     }
