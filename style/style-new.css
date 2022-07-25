@@ -200,7 +200,9 @@ sup {
         padding-bottom: 355px;
     }
     #program {
-        padding-top: 55px;
+        margin-top: 55px;
+        padding: 1px;
+        border: solid var(--mainBgColor) 10px;
     }
 }
 
