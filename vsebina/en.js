@@ -19,7 +19,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://www.imdb.com/title/tt9660170/'>Inventura (106')</a>"
+          "<a target='_blank'href='https://letterboxd.com/film/inventory-2021/'>Inventura (106')</a>"
         ]
       }
     ],
@@ -33,7 +33,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://www.imdb.com/title/tt6710474/'>Everything Everywhere All at Once (140')</a>"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
+          "<a target='_blank'href='https://letterboxd.com/film/everything-everywhere-all-at-once/'>Everything Everywhere All at Once (140')</a>"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
         ]
       }
     ],
@@ -55,7 +55,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://www.imdb.com/title/tt0333701/'>Kajmak in marmelada (92')</a>"
+          "<a target='_blank'href='https://letterboxd.com/film/cheese-and-jam/'>Kajmak in marmelada (92')</a>"
         ]
       }
     ],
@@ -63,7 +63,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://www.imdb.com/title/tt13145534/'>Incredible, but true (73')</a>",
+          "<a target='_blank'href='https://letterboxd.com/film/incredible-but-true/'>Incredible, but true (73')</a>",
           "Lana in Toni (23’)"
         ]
       }
@@ -72,7 +72,7 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://www.imdb.com/title/tt11358166/'>Some Kind of Heaven (81')</a>"
+          "<a target='_blank'href='https://letterboxd.com/film/some-kind-of-heaven/'>Some Kind of Heaven (81')</a>"
         ]
       }
     ]

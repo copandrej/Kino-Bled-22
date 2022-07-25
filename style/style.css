@@ -31,19 +31,18 @@ img {
 /*down arrow for mobile*/
 .arrow {
     position: absolute;
-    left: 45vw;
-    top: 82vh;
+    left: 46vw;
+    top: 75vh;
     display: none;
     border: solid var(--mainTxtColor);
-    border-width: 0 7px 7px 0;
+    border-width: 0 5px 5px 0;
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     transition: 500ms;
 }
 
 .down {
     display: none;
-
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
