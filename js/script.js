@@ -8,8 +8,8 @@ function zapri(el) {
     }
 
     if (el.clientHeight >= 45) {
-        el.style.height = "41px";
         el.childNodes[1].childNodes[1].style.color = '#ffebc6';
+        el.style.height = "41px";
         temp = null;
     } else {
         el.childNodes[1].childNodes[1].style.color = '#df6437';
@@ -101,7 +101,7 @@ window.addEventListener("load", () => {
             prevedi[2].innerHTML = "FESTIVALNA";
             prevedi[3].innerHTML = "DRUGO";
             prevedi[4].innerHTML = "VSTOP PROST";
-            prevedi[5].innerHTML = '<a class="no-display" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank" style="display: none;">KUPI VSTOPNICE</a>';
+            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a>';
             prevedi[6].innerHTML = "PI&#352ITE NAM";
             vsebina(trenutniJezik, trenutnaLokacija);
 
@@ -116,7 +116,7 @@ window.addEventListener("load", () => {
             prevedi[2].innerHTML = "FESTIVAL HALL";
             prevedi[3].innerHTML = "OTHER";
             prevedi[4].innerHTML = "FREE ENTRY";
-            prevedi[5].innerHTML = '<a class="no-display" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank" style="display: none;">BUY TICKETS</a>';
+            prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank">BUY TICKETS</a>';
             prevedi[6].innerHTML = "EMAIL US";
             vsebina(trenutniJezik, trenutnaLokacija);
         }
@@ -137,13 +137,13 @@ window.addEventListener("load", () => {
             data = enJson;
 
         if (lokacija == "fes") {
-            $(".display").css("display", "none");
-            $(".no-display").css("display", "block");
+            $(".display").addClass("visually-hidden");
+            $(".no-display").removeClass("visually-hidden");
 
         }
         else {
-            $(".display").css("display", "block");
-            $(".no-display").css("display", "none");
+            $(".display").removeClass("visually-hidden");
+            $(".no-display").addClass("visually-hidden");
         }
 
         for (let i = 0; i < dnevi.length; i++) {
