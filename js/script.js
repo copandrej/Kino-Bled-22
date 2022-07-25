@@ -53,7 +53,7 @@ window.addEventListener("load", () => {
     $(".slo").click(() => { spremembaJezika("sl"); });
     $(".eng").click(() => { spremembaJezika("en"); });
 
-    $("#program").click(() => { 
+    $(".down").click(() => { 
         $(".arrow").css("border-color", "transparent");
      });
 
