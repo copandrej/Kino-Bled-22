@@ -51,6 +51,10 @@ window.addEventListener("load", () => {
     $(".slo").click(() => { spremembaJezika("sl"); });
     $(".eng").click(() => { spremembaJezika("en"); });
 
+    $("#down").click(() => { 
+        $(".arrow").css("border-color", "transparent");
+     });
+
 
     //gumbi za lokacijo
     $(".fes").click(() => {

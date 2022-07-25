@@ -7,7 +7,9 @@
     text-align: center;
     text-decoration: none;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 /*vars*/
 :root {
     --mainBgColor: #26281e;
@@ -24,6 +26,24 @@
 img {
     width: 800px;
     /*600px*/
+}
+
+/*down arrow for mobile*/
+.arrow {
+    display: none;
+    margin-top: 25vh;
+    border: solid var(--mainTxtColor);
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 20px;
+    transition: 500ms;
+}
+
+.down {
+    display: none;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 /*da ne skače ko se pojavi scroll, je scroll rajš cel cajt*/
@@ -155,6 +175,12 @@ sup {
 
     .mobile {
         min-height: 100vh !important;
+    }
+    .arrow {
+        display: inline-block;
+    }
+    .down {
+        display: inline-block;
     }
 }
 
