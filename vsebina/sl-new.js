@@ -17,9 +17,16 @@ slJson = {
         ]
       },
       {
+        "naslov": "20:45",
+        "vrstice": [
+          "Otvoritvena slovesnost"
+        ]
+      },
+      {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://fivia.si/index.php/movie/inventura/'>Inventura (106')</a>"
+          "<a target='_blank'href='https://fivia.si/index.php/movie/inventura/'>Inventura (106')</a>",
+          "Za nekaj konjev (10‘)"
         ]
       }
     ],
@@ -33,7 +40,8 @@ slJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://fivia.si/index.php/movie/everything-everywhere-all-at-once/'>Vse povsod naenkrat (140')</a>"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
+          "<a target='_blank'href='https://fivia.si/index.php/movie/everything-everywhere-all-at-once/'>Vse povsod naenkrat (140')</a>",
+          "Ja, dobro sem hvala (2’)"
         ]
       }
     ],
@@ -55,7 +63,8 @@ slJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://bsf.si/sl/film/kajmak-in-marmelada/'>Kajmak in marmelada (92')</a>"
+          "<a target='_blank'href='https://bsf.si/sl/film/kajmak-in-marmelada/'>Kajmak in marmelada (92')</a>",
+          "Lana in Toni (23’)"
         ]
       }
     ],
@@ -64,15 +73,27 @@ slJson = {
         "naslov": "21:30",
         "vrstice": [
           "<a target='_blank'href='https://fivia.si/index.php/movie/incredible-but-true/'>Neverjetno, a resnično(73')</a>",
-          "Lana in Toni (23’)"
+          "Trikotnik (20')"
         ]
       }
     ],
     "SUNDAY": [
       {
+        "naslov": "19:00",
+        "vrstice": [
+          "Stand up večer: Tin Vodopivec in prijatelji"
+        ]
+      },{
+        "naslov": "20:45",
+        "vrstice": [
+          "Zaključna slovesnost"
+        ]
+      },
+      {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://www.imdb.com/title/tt11358166/'>Neke vrste nebesa (81')</a>"
+          "<a target='_blank'href='https://www.imdb.com/title/tt11358166/'>Neke vrste nebesa (81')</a>",
+          "Sycamore (15’)"
         ]
       }
     ]
@@ -99,13 +120,15 @@ slJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a target='_blank'href='https://fivia.si/index.php/movie/lux-aeterna/'>Lux Aeterna (51')</a>"
+          "<a target='_blank'href='https://fivia.si/index.php/movie/lux-aeterna/'>Lux Aeterna (51')</a>",
+          "Ujeta (8’)"
         ]
       },
       {
         "naslov": "19:15",
         "vrstice": [
-          "<a target='_blank'href='https://bsf.si/sl/film/ameba/'>AMEBA (72')</a>"
+          "<a target='_blank'href='https://bsf.si/sl/film/ameba/'>AMEBA (72')</a>",
+          "Vegitativen (1’)"
         ]
       }
     ],
@@ -127,13 +150,15 @@ slJson = {
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a target='_blank'href='https://demiurg.si/futura/'>Futura (108')</a>"
+          "<a target='_blank'href='https://demiurg.si/futura/'>Futura (108')</a>",
+          "Jaz sem Mateo (8’)"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a target='_blank'href='https://fivia.si/index.php/movie/cmon-cmon/'>Dej no (109')</a>"
+          "<a target='_blank'href='https://fivia.si/index.php/movie/cmon-cmon/'>Dej no (109')</a>",
+          "Srečanje (14’)"
         ]
       }
     ],
@@ -147,13 +172,15 @@ slJson = {
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a target='_blank'href='https://fivia.si/index.php/movie/bad-luck-banging-or-loony-porn/'>Nesrečni fuk ali nori pornič (106')</a>"
+          "<a target='_blank'href='https://fivia.si/index.php/movie/bad-luck-banging-or-loony-porn/'>Nesrečni fuk ali nori pornič (106')</a>",
+          "Med prsti (3')"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a target='_blank'href='https://fivia.si/index.php/movie/the-big-hit/'>Triumf (105’)</a>"
+          "<a target='_blank'href='https://fivia.si/index.php/movie/the-big-hit/'>Triumf (105’)</a>",
+          "Profesionalna amaterja (25')"
         ]
       }
     ],
@@ -168,11 +195,17 @@ slJson = {
       {
         "naslov": "15:00",
         "vrstice": [
-          " kratkih tekmovalnih"
+          "Sklop kratkih tekmovalnih"
         ]
       },
       {
-        "naslov": "18:00",
+        "naslov": "16:30",
+        "vrstice": [
+          "Ejti Štih (57’)"
+        ]
+      },
+      {
+        "naslov": "18:15",
         "vrstice": [
           "<a target='_blank'href='https://fivia.si/index.php/movie/vortex/'>Vorteks (135’)</a>"
         ]
