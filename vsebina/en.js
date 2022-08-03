@@ -26,7 +26,7 @@ enJson = {
         "naslov": "21:30",
         "vrstice": [
           "<a target='_blank'href='https://letterboxd.com/film/inventory-2021/'>Inventura (106')</a>",
-          "For Some Horses (10’)"
+          "Your Mountain is Waiting(8')"
         ]
       }
     ],
@@ -188,8 +188,7 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/even-mice-belong-in-heaven/'>Even Mice Belong in Heaven (87')</a>",
-          "Your Mountain is Waiting(8')"
+          "<a target='_blank'href='https://letterboxd.com/film/even-mice-belong-in-heaven/'>Even Mice Belong in Heaven (87')</a>"
         ]
       },
       {

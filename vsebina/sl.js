@@ -26,7 +26,7 @@ slJson = {
         "naslov": "21:30",
         "vrstice": [
           "<a target='_blank'href='https://fivia.si/index.php/movie/inventura/'>Inventura (106')</a>",
-          "Za nekaj konjev (10‘)"
+          "Tvoja gora te čaka (8')"
         ]
       }
     ],
@@ -151,7 +151,7 @@ slJson = {
         "naslov": "15:00",
         "vrstice": [
           "<a target='_blank'href='https://demiurg.si/futura/'>Futura (108')</a>",
-          "Jaz sem Mateo (8’)"
+          "Jaz sem Mateo (24’)"
         ]
       },
       {
@@ -188,8 +188,7 @@ slJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a target='_blank'href='http://misi.animateka.si/'>Tudi miši gredo v nebesa (87’) </a>",
-          "Tvoja gora te čaka (8')"
+          "<a target='_blank'href='http://misi.animateka.si/'>Tudi miši gredo v nebesa (87’) </a>"
         ]
       },
       {
