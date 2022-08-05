@@ -67,7 +67,10 @@ img, iframe {
   max-width: 80%;
   margin-left: 20px;
 }
-
+iframe {
+  width: 80vw;
+  height: 45vw;
+}
 
 /* ==========================================================================
   Media Queries for Responsive Design.
@@ -111,7 +114,6 @@ img, iframe {
   iframe {
     width: 700px;
     margin-left: 150px;
-
     height: 393.75px;
   }
 }
