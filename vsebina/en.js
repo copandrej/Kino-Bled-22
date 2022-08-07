@@ -5,8 +5,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/razprsilec'>The Sprayer (10’)</a>",
-          "<a href='en/projekcija-presenecenja'>Surprise screening (119’)</a>"
+          "<a target='_blank' href='en/razprsilec'>The Sprayer (10’)</a>",
+          "<a target='_blank' href='en/projekcija-presenecenja'>Surprise screening (119’)</a>"
         ]
       }
     ],
@@ -14,7 +14,7 @@ enJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "<a href='en/samuel-blues'>Concert: Samuel Blues</a>"
+          "<a target='_blank' href='en/samuel-blues'>Concert: Samuel Blues</a>"
         ]
       },
       {
@@ -26,8 +26,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/tvoja-gora'>Your Mountain Is Waiting (8')</a>",
-          "<a href='en/inventura'>Inventura (106')</a>"
+          "<a target='_blank' href='en/tvoja-gora'>Your Mountain Is Waiting (8')</a>",
+          "<a target='_blank' href='en/inventura'>Inventura (106')</a>"
         ]
       }
     ],
@@ -35,14 +35,14 @@ enJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "<a href='en/popotnik'>Concert: Popotnik</a>"
+          "<a target='_blank' href='en/popotnik'>Concert: Popotnik</a>"
         ]
       },
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/dobro-sem'>Yeah I’m Good Thanks (2’)</a>",
-          "<a href='en/vse-povsod-naenkrat'>Everything Everywhere All at Once (140')</a>"
+          "<a target='_blank' href='en/dobro-sem'>Yeah I’m Good Thanks (2’)</a>",
+          "<a target='_blank' href='en/vse-povsod-naenkrat'>Everything Everywhere All at Once (140')</a>"
         ]
       }
     ],
@@ -50,13 +50,13 @@ enJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "<a href='en/masharik'>Concert: Masharik</a>"
+          "<a target='_blank' href='en/masharik'>Concert: Masharik</a>"
         ]
       },
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/sava'>One for the River: Sava Story (84')</a>"
+          "<a target='_blank' href='en/sava'>One for the River: Sava Story (84')</a>"
         ]
       }
     ],
@@ -64,8 +64,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/lana-in-toni'>Lana and Toni (23’)</a>",
-          "<a href='en/kajmak-in-marmelada'>Cheese and Jam (92')</a>"
+          "<a target='_blank' href='en/lana-in-toni'>Lana and Toni (23’)</a>",
+          "<a target='_blank' href='en/kajmak-in-marmelada'>Cheese and Jam (92')</a>"
         ]
       }
     ],
@@ -73,8 +73,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/trikotnik'>Triangle (20')</a>",
-          "<a href='en/neverjetno'>Incredible, but true (73')</a>"
+          "<a target='_blank' href='en/trikotnik'>Triangle (20')</a>",
+          "<a target='_blank' href='en/neverjetno'>Incredible, but true (73')</a>"
         ]
       }
     ],
@@ -93,8 +93,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a href='en/sycamore'>Sycamore (15’)</a>",
-          "<a href='en/nebesa'>Some Kind of Heaven (81')</a>"
+          "<a target='_blank' href='en/sycamore'>Sycamore (15’)</a>",
+          "<a target='_blank' href='en/nebesa'>Some Kind of Heaven (81')</a>"
         ]
       }
     ]
@@ -121,15 +121,15 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='en/ujeta'>Captured (8’)</a>",
-          "<a href='en/lux-aeterna'>Lux Aeterna (51')</a>"
+          "<a target='_blank' href='en/ujeta'>Captured (8’)</a>",
+          "<a target='_blank' href='en/lux-aeterna'>Lux Aeterna (51')</a>"
         ]
       },
       {
         "naslov": "19:15",
         "vrstice": [
-          "<a href='en/vegetativen'>Vegetative (1’)</a>",
-          "<a href='en/ameba'>AMEBA (72')</a>"
+          "<a target='_blank' href='en/vegetativen'>Vegetative (1’)</a>",
+          "<a target='_blank' href='en/ameba'>AMEBA (72')</a>"
         ]
       }
     ],
@@ -137,9 +137,9 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='en/gozdne-reke'>Forest Rivers (39’)</a>",
-          "<a href='en/vec-kot-pot'>More Than A Route (20’)</a>",
-          "<a href='en/mamodi'>Mamody, The Last Baobab Digger (52’)</a>"
+          "<a target='_blank' href='en/gozdne-reke'>Forest Rivers (39’)</a>",
+          "<a target='_blank' href='en/vec-kot-pot'>More Than A Route (20’)</a>",
+          "<a target='_blank' href='en/mamodi'>Mamody, The Last Baobab Digger (52’)</a>"
         ]
       }
     ],
@@ -147,21 +147,21 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a href='en/ernest-in-celestina'>Ernest & Celestine (79’)</a>"
+          "<a target='_blank' href='en/ernest-in-celestina'>Ernest & Celestine (79’)</a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a href='en/matteo'>I am Matteo (24’)</a>",
-          "<a href='en/futura'>Futura (108')</a>"
+          "<a target='_blank' href='en/matteo'>I am Matteo (24’)</a>",
+          "<a target='_blank' href='en/futura'>Futura (108')</a>"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='en/srecanje'>Gathering (14’)</a>",
-          "<a href='en/dej-no'>C'mon C'mon (109')</a>"
+          "<a target='_blank' href='en/srecanje'>Gathering (14’)</a>",
+          "<a target='_blank' href='en/dej-no'>C'mon C'mon (109')</a>"
         ]
       }
     ],
@@ -169,21 +169,21 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a href='en/minioni'>Minions: The Rise of Gru (88’)</a>"
+          "<a target='_blank' href='en/minioni'>Minions: The Rise of Gru (88’)</a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a href='en/med-prsti'>Between Fingers (3')</a>",
-          "<a href='en/nesrecni-fuk'>Bad Luck Banging or Loony Porn (106')</a>"
+          "<a target='_blank' href='en/med-prsti'>Between Fingers (3')</a>",
+          "<a target='_blank' href='en/nesrecni-fuk'>Bad Luck Banging or Loony Porn (106')</a>"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='en/profesionalna-amaterja'>Professional Amateurs (25')</a>",
-          "<a href='en/triumf'>The Big Hit (105’)</a>"
+          "<a target='_blank' href='en/profesionalna-amaterja'>Professional Amateurs (25')</a>",
+          "<a target='_blank' href='en/triumf'>The Big Hit (105’)</a>"
         ]
       }
     ],
@@ -191,28 +191,28 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a href='en/tudi-misi'>Even Mice Belong in Heaven (87’) </a>"
+          "<a target='_blank' href='en/tudi-misi'>Even Mice Belong in Heaven (87’) </a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a href='en/brat-in-sestra'>Brother & sister (7’)</a>",
-          "<a href='en/pojej-bogate'>Eat The Rich (10’)</a>",
-          "<a href='en/rajski-dom'>Eden House (28’)</a>",
-          "<a href='en/popolnonma-izginiti'>How to disappear completely and become funny (19’)</a>"
+          "<a target='_blank' href='en/brat-in-sestra'>Brother & sister (7’)</a>",
+          "<a target='_blank' href='en/pojej-bogate'>Eat The Rich (10’)</a>",
+          "<a target='_blank' href='en/rajski-dom'>Eden House (28’)</a>",
+          "<a target='_blank' href='en/popolnonma-izginiti'>How to disappear completely and become funny (19’)</a>"
         ]
       },
       {
         "naslov": "16:30",
         "vrstice": [
-          "<a href='en/ejti-stih'>Ejti Štih (57’)</a>"
+          "<a target='_blank' href='en/ejti-stih'>Ejti Štih (57’)</a>"
         ]
       },
       {
         "naslov": "18:15",
         "vrstice": [
-          "<a href='en/vorteks'>Vortex (135’)</a>"
+          "<a target='_blank' href='en/vorteks'>Vortex (135’)</a>"
         ]
       }
     ]
@@ -254,8 +254,8 @@ enJson = {
       {
         "naslov": "TO-DO",
         "vrstice": [
-          "<a href='https://www.facebook.com/events/546848996416533/' target='_blank'>travelogue: Greece</a>",
-          "<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
+          "<a target='_blank' href='https://www.facebook.com/events/546848996416533/' target='_blank'>travelogue: Greece</a>",
+          "<a target='_blank' href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>"
         ]
       }
     ],
@@ -264,7 +264,7 @@ enJson = {
         "naslov": "TO-DO",
         "vrstice": [
           "<a target='_blank' href='https://www.bled.si/en/events/2021090112071356/guided-tour-of-bled'>guided tour of Bled</a>",
-          "<a href='https://goo.gl/maps/sep7vTan7DtZj3bx5' target='_blank'>@Tourist information centre</a>"
+          "<a target='_blank' href='https://goo.gl/maps/sep7vTan7DtZj3bx5' target='_blank'>@Tourist information centre</a>"
         ]
       },
       {
@@ -291,7 +291,7 @@ enJson = {
         "naslov": "TO-DO",
         "vrstice": [
           "<a target='_blank' href='https://www.facebook.com/events/402498801257873/'>debate: Me, you and us in a relationship</a>",
-          "<a href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6' target='_blank'>@Tavci Vegan Cafe</a>"
+          "<a target='_blank' href='https://goo.gl/maps/VeBPAY4QCmNjsc5q6' target='_blank'>@Tavci Vegan Cafe</a>"
         ]
       },
       {
