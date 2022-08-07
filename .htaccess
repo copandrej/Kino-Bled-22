@@ -357,3 +357,6 @@ RewriteRule ^/?$ "https\:\/\/kinoklub\.si\/kinoklub" [R=301,L]
 RewriteCond %{HTTP_HOST} ^kinobled\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.kinobled\.com$
 RewriteRule ^kinoklub\/?$ "https\:\/\/kinoklub\.si\/kinoklub" [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
