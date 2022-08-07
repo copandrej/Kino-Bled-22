@@ -5,7 +5,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "Surprise screening"
+          "<a href='en/razprsilec.html'>The Sprayer (10’)</a>",
+          "<a href='en/projekcija-presenecenja.html'>Surprise screening (119’)</a>"
         ]
       }
     ],
@@ -13,7 +14,7 @@ enJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "<a target='_blank'href='https://www.youtube.com/c/SamuelBlues'>Samuel Blues</a>"
+          "<a href='en/samuel-blues.html'>Concert: Samuel Blues</a>"
         ]
       },
       {
@@ -25,8 +26,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/inventory-2021/'>Inventura (106')</a>",
-          "Your Mountain is Waiting(8')"
+          "<a href='en/tvoja-gora.html'>Your Mountain Is Waiting (8')</a>",
+          "<a href='en/inventura.html'>Inventura (106')</a>"
         ]
       }
     ],
@@ -34,14 +35,14 @@ enJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "<a target='_blank'href='https://www.youtube.com/channel/UC9ZuR0WOrS2ioOxPOxAB1MQ'>Popotnik</a>"/*<a href='https://goo.gl/maps/UVfN6wr5MRfTd2sX6' target='_blank'>@Infocenter Triglavska roža Bled</a>*/
+          "<a href='en/popotnik.html'>Concert: Popotnik</a>"
         ]
       },
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/everything-everywhere-all-at-once/'>Everything Everywhere All at Once (140')</a>",
-          "Yeah I'm good thanks (2’)"/*<a target='_blank'href='https://www.imdb.com/title/tt0056591/'>One Fine Day (83’)</a>"*/
+          "<a href='en/dobro-sem.html'>Yeah I’m Good Thanks (2’)</a>",
+          "<a href='en/vse-povsod-naenkrat.html'>Everything Everywhere All at Once (140')</a>"
         ]
       }
     ],
@@ -49,13 +50,13 @@ enJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "<a target='_blank'href='https://www.youtube.com/c/masharikband'>Masharik</a>"
+          "<a href='en/masharik.html'>Concert: Masharik</a>"
         ]
       },
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://balkanriverdefence.org/zgodba-save/'>One for the River. Sava Story (84')</a>"
+          "<a href='en/sava.html'>One for the River: Sava Story (84')</a>"
         ]
       }
     ],
@@ -63,8 +64,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/cheese-and-jam/'>Kajmak in marmelada (92')</a>",
-          "Lana in Toni (23’)"
+          "<a href='en/lana-in-toni.html'>Lana and Toni (23’)</a>",
+          "<a href='en/kajmak-in-marmelada.html'>Cheese and Jam (92')</a>"
         ]
       }
     ],
@@ -72,8 +73,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/incredible-but-true/'>Incredible, but true (73')</a>",
-          "Triangle (20')"
+          "<a href='en/trikotnik.html'>Triangle (20')</a>",
+          "<a href='en/neverjetno.html'>Incredible, but true (73')</a>"
         ]
       }
     ],
@@ -92,8 +93,8 @@ enJson = {
       {
         "naslov": "21:30",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/some-kind-of-heaven/'>Some Kind of Heaven (81')</a>",
-          "Sycamore (15’)"
+          "<a href='en/sycamore.html'>Sycamore (15’)</a>",
+          "<a href='en/nebesa.html'>Some Kind of Heaven (81')</a>"
         ]
       }
     ]
@@ -120,15 +121,15 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/lux-aeterna-2019/'>Lux Aeterna (51')</a>",
-          "Captured (8’)"
+          "<a href='sl/ujeta.html'>Captured (8’)</a>",
+          "<a href='sl/lux-aeterna.html'>Lux Aeterna (51')</a>"
         ]
       },
       {
         "naslov": "19:15",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/amoeba-2021/'>AMEBA (72')</a>",
-          "Vegetative (1’)"
+          "<a href='sl/vegetativen.html'>Vegetative (1’)</a>",
+          "<a href='sl/ameba.html'>AMEBA (72')</a>"
         ]
       }
     ],
@@ -136,7 +137,9 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "Nature loving movies"
+          "<a href='sl/gozdne-reke.html'>Forest Rivers (39’)</a>",
+          "<a href='sl/vec-kot-pot.html'>More Than A Route (20’)</a>",
+          "<a href='sl/mamodi.html'>Mamody, The Last Baobab Digger (52’)</a>"
         ]
       }
     ],
@@ -144,21 +147,21 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/ernest-celestine/'>Ernest in Celestina (79’)</a>"
+          "<a href='sl/ernest-in-celestina.html'>Ernest & Celestine (79’)</a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/futura-2021/'>Futura (108')</a>",
-          "I Am Mateo (24')"
+          "<a href='sl/matteo.html'>I am Matteo (24’)</a>",
+          "<a href='sl/futura.html'>Futura (108')</a>"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/cmon-cmon/'>C’mon C’mon (109')</a>",
-          "Gathering (14’)"
+          "<a href='sl/srecanje.html'>Gathering (14’)</a>",
+          "<a href='sl/dej-no.html'>C'mon C'mon (109')</a>"
         ]
       }
     ],
@@ -166,21 +169,21 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/minions-the-rise-of-gru/'>Minions: The Rise of Gru (88’)</a>"
+          "<a href='sl/minioni.html'>Minions: The Rise of Gru (88’)</a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/bad-luck-banging-or-loony-porn/'>Bad Luck Banging or Loony Porn(106')</a>",
-          "Between Fingers (3')"
+          "<a href='sl/med-prsti.html'>Between Fingers (3')</a>",
+          "<a href='sl/nesrecni-fuk.html'>Bad Luck Banging or Loony Porn (106')</a>"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/film:635235/'>The Big Hit (105’)</a>",
-          "Professional Amateurs (25')"
+          "<a href='sl/profesionalna-amaterja.html'>Professional Amateurs (25')</a>",
+          "<a href='sl/triumf.html'>The Big Hit (105’)</a>"
         ]
       }
     ],
@@ -188,25 +191,28 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/even-mice-belong-in-heaven/'>Even Mice Belong in Heaven (87')</a>"
+          "<a href='sl/tudi-misi.html'>Even Mice Belong in Heaven (87’) </a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "Competitive shorts programme"
+          "<a href='sl/brat-in-sestra.html'>Brother & sister (7’)</a>",
+          "<a href='sl/pojej-bogate.html'>Eat The Rich (10’)</a>",
+          "<a href='sl/rajski-dom.html'>Eden House (28’)</a>",
+          "<a href='sl/popolnonma-izginiti.html'>How to disappear completely and become funny (19’)</a>"
         ]
       },
       {
         "naslov": "16:30",
         "vrstice": [
-          "Ejti Štih (57')"
+          "<a href='sl/ejti-stih.html'>Ejti Štih (57’)</a>"
         ]
       },
       {
         "naslov": "18:15",
         "vrstice": [
-          "<a target='_blank'href='https://letterboxd.com/film/vortex-2021/'>Vortex (135’)</a>"
+          "<a href='sl/vorteks.html'>Vortex (135’)</a>"
         ]
       }
     ]
