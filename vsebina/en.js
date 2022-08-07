@@ -82,7 +82,7 @@ enJson = {
       {
         "naslov": "19:00",
         "vrstice": [
-          "Stand up: Tin Vodopivec and current friends"
+          "<a target='_blank' href='https://facebook.com/events/s/stand-up-22-tin-vodopivec-in-t/467064418229608/'>Stand up: Tin Vodopivec and current friends</a>"
         ]
       },{
         "naslov": "20:45",
