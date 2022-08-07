@@ -121,15 +121,15 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='sl/ujeta.html'>Captured (8’)</a>",
-          "<a href='sl/lux-aeterna.html'>Lux Aeterna (51')</a>"
+          "<a href='en/ujeta.html'>Captured (8’)</a>",
+          "<a href='en/lux-aeterna.html'>Lux Aeterna (51')</a>"
         ]
       },
       {
         "naslov": "19:15",
         "vrstice": [
-          "<a href='sl/vegetativen.html'>Vegetative (1’)</a>",
-          "<a href='sl/ameba.html'>AMEBA (72')</a>"
+          "<a href='en/vegetativen.html'>Vegetative (1’)</a>",
+          "<a href='en/ameba.html'>AMEBA (72')</a>"
         ]
       }
     ],
@@ -137,9 +137,9 @@ enJson = {
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='sl/gozdne-reke.html'>Forest Rivers (39’)</a>",
-          "<a href='sl/vec-kot-pot.html'>More Than A Route (20’)</a>",
-          "<a href='sl/mamodi.html'>Mamody, The Last Baobab Digger (52’)</a>"
+          "<a href='en/gozdne-reke.html'>Forest Rivers (39’)</a>",
+          "<a href='en/vec-kot-pot.html'>More Than A Route (20’)</a>",
+          "<a href='en/mamodi.html'>Mamody, The Last Baobab Digger (52’)</a>"
         ]
       }
     ],
@@ -147,21 +147,21 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a href='sl/ernest-in-celestina.html'>Ernest & Celestine (79’)</a>"
+          "<a href='en/ernest-in-celestina.html'>Ernest & Celestine (79’)</a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a href='sl/matteo.html'>I am Matteo (24’)</a>",
-          "<a href='sl/futura.html'>Futura (108')</a>"
+          "<a href='en/matteo.html'>I am Matteo (24’)</a>",
+          "<a href='en/futura.html'>Futura (108')</a>"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='sl/srecanje.html'>Gathering (14’)</a>",
-          "<a href='sl/dej-no.html'>C'mon C'mon (109')</a>"
+          "<a href='en/srecanje.html'>Gathering (14’)</a>",
+          "<a href='en/dej-no.html'>C'mon C'mon (109')</a>"
         ]
       }
     ],
@@ -169,21 +169,21 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a href='sl/minioni.html'>Minions: The Rise of Gru (88’)</a>"
+          "<a href='en/minioni.html'>Minions: The Rise of Gru (88’)</a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a href='sl/med-prsti.html'>Between Fingers (3')</a>",
-          "<a href='sl/nesrecni-fuk.html'>Bad Luck Banging or Loony Porn (106')</a>"
+          "<a href='en/med-prsti.html'>Between Fingers (3')</a>",
+          "<a href='en/nesrecni-fuk.html'>Bad Luck Banging or Loony Porn (106')</a>"
         ]
       },
       {
         "naslov": "18:00",
         "vrstice": [
-          "<a href='sl/profesionalna-amaterja.html'>Professional Amateurs (25')</a>",
-          "<a href='sl/triumf.html'>The Big Hit (105’)</a>"
+          "<a href='en/profesionalna-amaterja.html'>Professional Amateurs (25')</a>",
+          "<a href='en/triumf.html'>The Big Hit (105’)</a>"
         ]
       }
     ],
@@ -191,28 +191,28 @@ enJson = {
       {
         "naslov": "11:00",
         "vrstice": [
-          "<a href='sl/tudi-misi.html'>Even Mice Belong in Heaven (87’) </a>"
+          "<a href='en/tudi-misi.html'>Even Mice Belong in Heaven (87’) </a>"
         ]
       },
       {
         "naslov": "15:00",
         "vrstice": [
-          "<a href='sl/brat-in-sestra.html'>Brother & sister (7’)</a>",
-          "<a href='sl/pojej-bogate.html'>Eat The Rich (10’)</a>",
-          "<a href='sl/rajski-dom.html'>Eden House (28’)</a>",
-          "<a href='sl/popolnonma-izginiti.html'>How to disappear completely and become funny (19’)</a>"
+          "<a href='en/brat-in-sestra.html'>Brother & sister (7’)</a>",
+          "<a href='en/pojej-bogate.html'>Eat The Rich (10’)</a>",
+          "<a href='en/rajski-dom.html'>Eden House (28’)</a>",
+          "<a href='en/popolnonma-izginiti.html'>How to disappear completely and become funny (19’)</a>"
         ]
       },
       {
         "naslov": "16:30",
         "vrstice": [
-          "<a href='sl/ejti-stih.html'>Ejti Štih (57’)</a>"
+          "<a href='en/ejti-stih.html'>Ejti Štih (57’)</a>"
         ]
       },
       {
         "naslov": "18:15",
         "vrstice": [
-          "<a href='sl/vorteks.html'>Vortex (135’)</a>"
+          "<a href='en/vorteks.html'>Vortex (135’)</a>"
         ]
       }
     ]
