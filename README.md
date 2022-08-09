@@ -2,6 +2,7 @@
 
 Spletna stran je narejena po designu zavoda Aspekt in spletni strani iz leta 2021 https://github.com/copandrej/Kino-Bled-21
 Dodatna možnost izbiranja lokacije + letošnje barve/logo + izboljšan seo/favicons etc.
+Dodanih 80 podstrani z dvojezičnimi opisi filmov in embeded videji.
 
 Za domeno: https://kinobled.com
 
