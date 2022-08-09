@@ -103,6 +103,7 @@ window.addEventListener("load", () => {
             prevedi[4].innerHTML = "VSTOP PROST";
             prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=sl" target="_blank">KUPI VSTOPNICE</a>';
             prevedi[6].innerHTML = "PI&#352ITE NAM";
+            prevedi[7].innerHTML = '<a href="sponzorji" target="_blank">SPONZORJI FESTIVALA</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
 
         } else {
@@ -118,6 +119,7 @@ window.addEventListener("load", () => {
             prevedi[4].innerHTML = "FREE ENTRY";
             prevedi[5].innerHTML = '<a class="no-display visually-hidden" href="https://olaii.com/event/1922/kino-bled-2022?lang=en" target="_blank">BUY TICKETS</a>';
             prevedi[6].innerHTML = "EMAIL US";
+            prevedi[7].innerHTML = '<a href="sponsors" target="_blank">FESTIVAL SPONSORS</a>';
             vsebina(trenutniJezik, trenutnaLokacija);
         }
     }
